@@ -7,7 +7,7 @@ const DarkLogo = () => {
       title="Logo"
       href={process.env.PUBLIC_URL + "/"}
     >
-      <img src="assets/img/logo/logo.svg" alt="Logo" />
+      <img src="assets/img/logo/logo_small.png" alt="Logo" />
     </a>
   );
 };
