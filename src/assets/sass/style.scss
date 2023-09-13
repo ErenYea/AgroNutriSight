@@ -298,6 +298,7 @@ html {
     opacity: 0.55;
 }
 
+
 body {
 	background-color: $body_background_color;
 	font-size: 19px;
@@ -331,6 +332,7 @@ body {
 	margin: auto;
 	padding-left: $wrapper_p_l;
 	padding-right: $wrapper_p_r;
+	
 
 	@media #{$media_xxl} {
 		padding-left: $wrapper_p_l_xxl;

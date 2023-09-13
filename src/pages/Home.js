@@ -88,7 +88,7 @@ const Home = () => {
             <News />
             <section
               id="about-us"
-              className="block spacer p-top-xl-2 p-bottom-xl-2"
+              className="block spacer p-top-xl-2 p-bottom-xl-2 "
             >
               <AboutsUs />
             </section>

@@ -32,7 +32,7 @@ class HomeHeaderMenuPrimary extends Component {
   }
 
   scrollEvent() {
-    let offset = 76;
+    let offset = 10;
     const offsets = [];
     const link_names = [];
 
