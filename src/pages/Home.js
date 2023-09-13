@@ -27,9 +27,7 @@ const Home = () => {
     <Fragment>
       <MetaTags>
         <meta charSet="UTF-8" />
-        <title>
-          Home | Malex - Business Consulting Agency React JS Template
-        </title>
+        <title>Home | Biologic AI</title>
 
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
