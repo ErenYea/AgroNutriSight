@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "title": "5 Tips for Sustainable Business Success",
+        "link": "/news-single-post",
+        "imgSrc": "assets/img/placeholder/500x334.jpg",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducims…"
+    },
+    {
+        "id": "2",
+        "title": "Assessing the Maturity of Your Data Management in Industry",
+        "link": "/news-single-post",
+        "imgSrc": "assets/img/placeholder/500x334.jpg",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducims…"
+    },
+    {
+        "id": "3",
+        "title": "How to Build Your Sustainable Susiness Strategy",
+        "link": "/news-single-post",
+        "imgSrc": "assets/img/placeholder/500x334.jpg",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducims…"
+    }
+]

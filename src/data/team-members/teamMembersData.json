@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Tom Henders",
+        "imgSrc": "assets/img/placeholder/500x550.jpg",
+        "position": "CEO",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "facebook": "https://www.facebook.com/adveits/",
+        "linkedIn": "https://www.linkedin.com/company/18135051/",
+        "instagram": "https://www.instagram.com/adveits/"
+    },
+    {
+        "id": "2",
+        "name": "Tom Henders",
+        "imgSrc": "assets/img/placeholder/500x550.jpg",
+        "position": "CEO",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "facebook": "https://www.facebook.com/adveits/",
+        "linkedIn": "https://www.linkedin.com/company/18135051/",
+        "instagram": "https://www.instagram.com/adveits/"
+    },
+    {
+        "id": "3",
+        "name": "Tom Henders",
+        "imgSrc": "assets/img/placeholder/500x550.jpg",
+        "position": "CEO",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "facebook": "https://www.facebook.com/adveits/",
+        "linkedIn": "https://www.linkedin.com/company/18135051/",
+        "instagram": "https://www.instagram.com/adveits/"
+    }
+]

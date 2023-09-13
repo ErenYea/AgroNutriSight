@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "title": "Business Analysis",
+        "color": "1",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "processNum": "01"
+    },
+    {
+        "id": "2",
+        "title": "Business Planning",
+        "color": "2",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "processNum": "02"
+    },
+    {
+        "id": "3",
+        "title": "Business Growth",
+        "color": "3",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "processNum": "03"
+    }
+]

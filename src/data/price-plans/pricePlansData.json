@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "popular": false,
+        "title": "Basic Plan",
+        "description": "This is Basic Plan",
+        "currency": "$",
+        "price": "79",
+        "period": "/ Monthly",
+        "branding": true,
+        "consultation": true,
+        "theory": true,
+        "skype": true,
+        "support": true
+    },
+    {
+        "id": "2",
+        "popular": false,
+        "title": "Standart Plan",
+        "description": "This is Standart Plan",
+        "currency": "$",
+        "price": "129",
+        "period": "/ Monthly",
+        "branding": true,
+        "consultation": true,
+        "theory": true,
+        "skype": true,
+        "support": true
+    },
+    {
+        "id": "1",
+        "popular": true,
+        "title": "Premium Plan",
+        "description": "This is Premium Plan",
+        "currency": "$",
+        "price": "259",
+        "period": "/ Monthly",
+        "branding": true,
+        "consultation": true,
+        "theory": true,
+        "skype": true,
+        "support": true
+    }
+]
