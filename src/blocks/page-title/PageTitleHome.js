@@ -6,9 +6,9 @@ const PageTitleHome = () => {
   return (
     <section
       id="page-title"
-      className="block with-img with-service-items"
+      className="block with-img with-service-items hamza"
       style={{
-        backgroundImage: `url( ${require("../../assets/img/placeholder/1920x1000.jpg")} )`,
+        backgroundImage: `url( ${require("../../assets/img/placeholder/home.jpg")} )`,
       }}
     >
       <div className="wrapper d-flex flex-column justify-content-center">
