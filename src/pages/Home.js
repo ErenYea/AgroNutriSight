@@ -50,16 +50,16 @@ const Home = () => {
 
             <ServicesHome />
 
-            <div id="img" className="block spacer p-top-lg wrapper-normal">
+            {/* <div id="img" className="block spacer p-top-lg wrapper-normal">
               <AboutImg />
-            </div>
+            </div> */}
 
-            <section
+            {/* <section
               id="how-it-works"
               className="block bg-white before-block spacer p-bottom-xl-2"
             >
               <HowWorks />
-            </section>
+            </section> */}
 
             <section
               id="team-members"
@@ -75,13 +75,13 @@ const Home = () => {
               <PricePlans />
             </section>
 
-            <div id="clients" className="block bg-white spacer m-top-xl">
+            {/* <div id="clients" className="block bg-white spacer m-top-xl">
               <Clients />
             </div>
 
             <div id="video" className="block">
               <VideoModal />
-            </div>
+            </div> */}
 
             <Testimonials />
 
