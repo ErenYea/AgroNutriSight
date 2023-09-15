@@ -11,7 +11,8 @@
 /* Apply the animation to the icon list items */
 .icon-list-items {
   display: flex;
-  animation: moveLeft 10s linear infinite; /* Adjust the duration as needed */
+  animation: moveLeft 20s linear infinite; /* Adjust the duration as needed */
+  animation-iteration-count: infinite; /* Ensures it runs infinitely */
 }
 
 /* Style for each icon list item */
