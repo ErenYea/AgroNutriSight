@@ -10,9 +10,9 @@ const ServicesHome = () => {
           {data.map((service) => (
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
               <div className="service">
-                <div className="service-icon">
+                {/* <div className="service-icon">
                   <i className="malex-icon-strategy"></i>
-                </div>
+                </div> */}
 
                 <h4 className="service-t-head">{service.name}</h4>
 
