@@ -39,11 +39,7 @@ function App() {
           path={`${process.env.PUBLIC_URL + "/search-results"}`}
           component={SearchResults}
         />
-        <Route
-          exact
-          path={`${process.env.PUBLIC_URL + "/service/:id"}`}
-          component={ServiceInside}
-        />
+        <Route exact path={"/product:id"} component={ServiceInside} />
         <Route
           exact
           path={`${process.env.PUBLIC_URL + "/ui"}`}
