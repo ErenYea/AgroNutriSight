@@ -7,7 +7,6 @@ const News = () => {
     <section
       id="news"
       className="block spacer p-top-xl-2 m-top-xl-2 p-bottom-xl"
-      style={{ height: "100vh" }}
     >
       <div className="wrapper" style={{ marginTop: "4rem" }}>
         <div className="title">

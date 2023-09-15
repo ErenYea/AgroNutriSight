@@ -49,7 +49,7 @@ const AboutUs = () => {
                             <AboutsUs />
                         </section>
 
-                        <section id="team-members" className="block bg-white-before spacer p-top-xl p-bottom-xl">
+                        {/* <section id="team-members" className="block bg-white-before spacer p-top-xl p-bottom-xl">
                             <TeamMembers />
                         </section>
 
@@ -57,7 +57,7 @@ const AboutUs = () => {
 
                         <div id="clients" className="block bg-white">
                             <Clients />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </main>

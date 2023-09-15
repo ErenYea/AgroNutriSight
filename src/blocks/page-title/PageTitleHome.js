@@ -16,12 +16,12 @@ const PageTitleHome = () => {
           <div className="title">
             <h1 className="large">
               Empowering Precision
-              <br /> through Artificial Intelligence
+              <br /> through AI
             </h1>
           </div>
 
           <div className="description spacer p-top-lg">
-            <p>
+            <p className="text-justify">
               At Biologic AI, we are at the forefront of a radiological
               revolution, driven by the transformative potential of Artificial
               Intelligence. With unwavering dedication and a commitment to

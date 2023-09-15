@@ -1,11 +1,11 @@
 import React from 'react';
 
-const PageTitleNewsSingle = () => {
+const PageTitleNewsSingle = ({ headline }) => {
     return (
         <div id="page-title" className="page-title-ml">
             <div className="wrapper">
                 <div className="title">
-                    <h1 className="large">Our News</h1>
+                    <h1 className=""> { headline } </h1>
                 </div>
 
                 <div className="title-opacity">

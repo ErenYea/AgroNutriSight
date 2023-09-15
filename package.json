@@ -31,7 +31,7 @@
         "react-slide-toggle": "^0.3.5",
         "react-transition-group": "^4.4.1",
         "react-visibility-sensor": "^5.1.1",
-        "sass": "^1.66.1",
+        "sass": "^1.67.0",
         "simplebar": "^5.2.1",
         "swiper": "^10.2.0",
         "yarn": "^1.22.10"
