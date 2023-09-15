@@ -1,72 +1,119 @@
-import React from 'react';
+import React from "react";
 
 const ServicesHome = () => {
-    return (
-        <section id="services" className="block spacer p-bottom-xl-2">
-            <div className="wrapper">
-                <div className="row gutter-width-md with-pb-md service-items">
-                    <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                        <div className="service">
-                            <div className="service-icon">
-                                <i className="malex-icon-strategy"></i>
-                            </div>
+  return (
+    <section id="services" className="block spacer p-bottom-xl-2">
+      <div className="wrapper">
+        <div className="row gutter-width-md with-pb-md service-items">
+          <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div className="service">
+              <div className="service-icon">
+                <i className="malex-icon-strategy"></i>
+              </div>
 
-                            <h4 className="service-t-head">Strategic Planning</h4>
+              <h4 className="service-t-head">EmoGaze Insights</h4>
 
-                            <p className="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+              <p className="service-description">
+                Biologic AI boosts ad ROI with fMRI and Eye Tracking, optimizing
+                campaigns and trimming unnecessary spending.
+              </p>
 
-                            <div className="service-btn">
-                                <a title="Read more" className="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase" href={ process.env.PUBLIC_URL + "/service-inside" }>
-                                    <i className="malex-icon-arrow-right i-large"></i>
-                                    <span className="btn-text">Read more</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                        <div className="service">
-                            <div className="service-icon">
-                                <i className="malex-icon-choice"></i>
-                            </div>
-
-                            <h4 className="service-t-head">Consulting & Marketing</h4>
-
-                            <p className="service-description">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium.</p>
-
-                            <div className="service-btn">
-                                <a title="Read more" className="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase" href={ process.env.PUBLIC_URL + "/service-inside" }>
-                                    <i className="malex-icon-arrow-right i-large"></i>
-                                    <span className="btn-text">Read more</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                        <div className="service">
-                            <div className="service-icon">
-                                <i className="malex-icon-chart-5"></i>
-                            </div>
-
-                            <h4 className="service-t-head">Financial</h4>
-
-                            <p className="service-description">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium.</p>
-
-                            <div className="service-btn">
-                                <a title="Read more" className="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase" href={ process.env.PUBLIC_URL + "/service-inside" }>
-                                    <i className="malex-icon-arrow-right i-large"></i>
-                                    <span className="btn-text">Read more</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <div className="service-btn">
+                <a
+                  title="Read more"
+                  className="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase"
+                  href={process.env.PUBLIC_URL + "/service/1"}
+                >
+                  <i className="malex-icon-arrow-right i-large"></i>
+                  <span className="btn-text">Read more</span>
+                </a>
+              </div>
             </div>
-        </section>
-    );
+          </div>
+
+          <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div className="service">
+              <div className="service-icon">
+                <i className="malex-icon-choice"></i>
+              </div>
+
+              <h4 className="service-t-head">CardioClear</h4>
+
+              <p className="service-description">
+                AI-driven heart disease care via CCTA imaging for early
+                atherosclerosis detection, personalized treatment, and improved
+                outcomes.
+              </p>
+
+              <div className="service-btn">
+                <a
+                  title="Read more"
+                  className="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase"
+                  href={process.env.PUBLIC_URL + "/service/1"}
+                >
+                  <i className="malex-icon-arrow-right i-large"></i>
+                  <span className="btn-text">Read more</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div className="service">
+              <div className="service-icon">
+                <i className="malex-icon-chart-5"></i>
+              </div>
+
+              <h4 className="service-t-head">OncoPath</h4>
+
+              <p className="service-description">
+                Our solution simplifies oncology care by automating lesion
+                quantification, tracking, and therapy response reporting,
+                seamlessly integrated with medical records.
+              </p>
+
+              <div className="service-btn">
+                <a
+                  title="Read more"
+                  className="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase"
+                  href={process.env.PUBLIC_URL + "/service-inside"}
+                >
+                  <i className="malex-icon-arrow-right i-large"></i>
+                  <span className="btn-text">Read more</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div className="service">
+              <div className="service-icon">
+                <i className="malex-icon-strategy"></i>
+              </div>
+
+              <h4 className="service-t-head">FractureFinder</h4>
+
+              <p className="service-description">
+                FractureFinder's AI detects concealed fractures, aiding precise
+                diagnosis for improved patient care and outcomes, especially in
+                wrist and hip cases.
+              </p>
+
+              <div className="service-btn">
+                <a
+                  title="Read more"
+                  className="btn btn-sm btn-link btn-icon-hover p-0 border-0 min-w-auto link-no-space text-uppercase"
+                  href={process.env.PUBLIC_URL + "/service-inside"}
+                >
+                  <i className="malex-icon-arrow-right i-large"></i>
+                  <span className="btn-text">Read more</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default ServicesHome;

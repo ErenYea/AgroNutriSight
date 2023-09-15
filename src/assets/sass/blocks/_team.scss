@@ -15,8 +15,10 @@
 			&:before {
 				padding-top: 110%;
 			}
+			
 		}
 	}
+	
 
 	.team-member-top {
 		position: relative;
@@ -24,8 +26,11 @@
 		.team-member-position {
 			position: absolute;
 			z-index: 2;
+			// opacity: 0;
 			left: 1.316rem;
 			bottom: 1.316rem;
+			// bottom: 0.016rem;
+			// background-color: gray;
 			background-color: $body_main_element_primary_color;
 			padding: 1.053rem 1.316rem;
 			min-width: 9.421rem;
@@ -37,6 +42,7 @@
 				font-weight: 700;
 			}
 		}
+		
 	}
 
 	.team-member-content {
