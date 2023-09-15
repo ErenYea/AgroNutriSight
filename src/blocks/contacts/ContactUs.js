@@ -70,12 +70,11 @@ const ContactsUs = () => {
                 <div className="wrapper">
                     <div id="contact-form">
                         <div className="title">
-                            <h3 className="pb-0">You Can Write Us</h3>
+                            <h3 className="pb-0">You Can Contact Us</h3>
                         </div>
 
                         <div className="description-lg spacer p-top-lg">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an
-                                unknown printer took a galley.</p>
+                            <p>Got questions or feedback? Don't hesitate to get in touch.</p>
                         </div>
 
                         <div className="spacer p-top-lg">

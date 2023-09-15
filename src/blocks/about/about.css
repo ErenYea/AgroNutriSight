@@ -1,0 +1,21 @@
+/* Define the animation */
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Apply the animation to the icon list items */
+.icon-list-items {
+  display: flex;
+  animation: moveLeft 10s linear infinite; /* Adjust the duration as needed */
+}
+
+/* Style for each icon list item */
+.icon-list-item {
+  margin-right: 20px; /* Adjust the spacing between items */
+  white-space: nowrap;
+}
