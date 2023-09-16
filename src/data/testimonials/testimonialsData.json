@@ -1,23 +1,26 @@
 [
     {
         "id": "1",
-        "author": "Tommy Andersen",
-        "position": "CEO at Company",
-        "imgSrc": "assets/img/placeholder/60x60.jpg",
-        "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account."
+        "name": "EmoGaze Insights: Ad Impact with fMRI and BGI",
+        "description": "We combine fMRI with Eye Tracking and Brain Guided Interpretation (BGI) to gather valuable insights. fMRI measures unconscious emotions and reactions activated by your ads, judged against established benchmarks. Optimize your ads and reduce ad-spending.",
+        "videoSrc": "assets/img/placeholder/prod1.mp4"
     },
     {
         "id": "2",
-        "author": "Arthur Hopin",
-        "position": "CEO at Company",
-        "imgSrc": "assets/img/placeholder/60x60.jpg",
-        "text": "Who is this? I am number 2."
+        "name": "CardioClear: Precision Heart Disease Care Powered by AI",
+        "description": "CardioClear transforms heart disease treatment with AI. Our platform uses coronary computed tomography angiography (CCTA) imaging to identify atherosclerosis earlier. Simplify heart disease evaluation and reporting for improved outcomes.",
+        "videoSrc": "assets/img/placeholder/prod2.mp4"
     },
     {
         "id": "3",
-        "author": "Rosie Ford",
-        "position": "CEO at Company",
-        "imgSrc": "assets/img/placeholder/60x60.jpg",
-        "text": "Who is this? I am number 3."
+        "name": "OncoPath: AI-Driven Disease Progression Tracking",
+        "description": "Tailored for oncologists, our solution streamlines disease progression monitoring with automated lesion quantification, tracking for reports, and therapy response criteria reporting, integrated with EMRs or Tempus Hub.",
+        "videoSrc": "assets/img/placeholder/prod3.mp4"
+    },
+    {
+        "id": "4",
+        "name": "FractureFinder: AI-Enhanced Bone Fracture Detection",
+        "description": "Our AI-driven medical imaging solution uncovers concealed bone fractures. Machine learning identifies patterns indicative of fractures, assisting in accurate diagnosis. Empower radiology experts to improve patient care.",
+        "videoSrc": "assets/img/placeholder/prod4.mp4"
     }
 ]
