@@ -10,7 +10,6 @@
     }
 }
 
-
 @media (min-width: 1440px) {
     .img-responsive {
         width: 1000px;
@@ -26,4 +25,3 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
     border-radius: 10px; /* Add rounded corners */
 }
-  
