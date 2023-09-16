@@ -349,7 +349,27 @@ body {
 		padding-right: $wrapper_p_r_sm;
 	}
 }
-
+@media #{$media_md}{
+	.media_hamza{
+		display: flex !important;
+		flex-direction: column !important;
+		.object-fit-cover{
+				margin-top: 10px;
+		}
+		img{
+		
+			margin-left: 0px !important;
+		}
+	}
+	
+}
+@media #{$media_lg}{
+	.media_hamza{
+		img{
+			margin-left: 10px;
+		}
+	}
+}
 @media #{$media_md} {
 	#main {
 		.wrapper,

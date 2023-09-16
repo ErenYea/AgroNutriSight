@@ -59,14 +59,14 @@ const TeamMembers = () => {
         <div className="title-opacity-text">Service</div>
       </div>
 
-      <div className="description">
-        <h5>
+      <div className="description text-justify">
+        <p>
           Welcome to BioLogic AI, your gateway to cutting-edge AI solutions and
           products in the realm of healthcare. Our mission is to harness the
           power of artificial intelligence to transform the healthcare landscape
           and improve lives. Explore our range of services designed to pave the
           way for a healthier future.
-        </h5>
+        </p>
       </div>
 
       <div className="row gutter-width-md with-pb-md spacer p-top-lg">
@@ -99,7 +99,11 @@ const TeamMembers = () => {
                   <div className="team-member-top">
                     <div className="img object-fit">
                       <div className="object-fit-cover">
-                        <img src={member.imgSrc} alt={member.name} />
+                        <img
+                          src={member.imgSrc}
+                          alt={member.name}
+                          style={{ borderRadius: "10px" }}
+                        />
                       </div>
                     </div>
 
@@ -111,7 +115,7 @@ const TeamMembers = () => {
                   <div className="team-member-content">
                     {/* <h4 className="team-member-t-head">{member.name}</h4> */}
 
-                    <div className="team-member-description">
+                    <div className="team-member-description text-justify">
                       <p>{member.description}</p>
                     </div>
                   </div>
