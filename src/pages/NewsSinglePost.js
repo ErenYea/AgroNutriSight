@@ -14,6 +14,7 @@ import NewsComments from '../blocks/news/NewsComments';
 import Widget from '../blocks/widget/Widget';
 import { useLocation } from 'react-router-dom';
 import News from '../data/news/newsHomeItems';
+import '../App.css'
 
 const NewsSinglePost = () => {
     document.body.classList.add( 'single-post' );
@@ -58,26 +59,42 @@ const NewsSinglePost = () => {
                     <div className="wrapper">
                         <div id="single">
                             <div className="row gutter-width-lg">
-                                <div className="w-full flex flex-col items-center justify-center single-content">
-                                    <div className="img object-contain flex items-center w-full h-1/2 w-1/2">
-   
-                                        <img src={news?.imgSrc} alt="Assessing the Maturity of Your Data Management in Industry" />
-                                        
+                                <div className="d-flex flex-column flex-xl-row justify-content-between">
+                                    <div className="img object-cover px-2">
+                                        <img
+                                            src={news?.imgSrc}
+                                            alt=""
+                                            className='img-responsive'
+                                        />
                                     </div>
+
 
                                     {/* <NewsMeta /> */}
 
-                                    <NewsTitle header={news?.header} />
 
-                                    <NewsDescription content={news?.content} />
+                                    <NewsDescription content={news?.content?.slice(0,4)} />
 
                                     {/* <NewsTags /> */}
 
                                     {/* <NewsComments /> */}
                                 </div>
-                                {/* <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                    <Widget />
-                                </div> */}
+
+                                <NewsTitle header={news?.header} />
+
+                                <div className="d-flex flex-column justify-content-between px-2 py-4">
+                                    {/* <Widget /> */}
+                                    
+                                    { news?.content && (
+
+                                        news?.content.slice(4).map((para) => (
+                                                <p className='text-justify'>
+                                                    {para}
+                                                </p>
+                                            ))
+                                        )
+                                    }
+
+                                </div>
                             </div>
                         </div>
                     </div>

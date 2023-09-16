@@ -8,6 +8,15 @@
   }
 }
 
+.para {
+  height: auto;
+}
+
+.icon-list {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 /* Apply the animation to the icon list items */
 .icon-list-items {
   display: flex;

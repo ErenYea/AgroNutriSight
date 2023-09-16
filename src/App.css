@@ -1,0 +1,19 @@
+.img-responsive {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (min-width: 1280px) {
+    .img-responsive {
+        width: 750px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .img-responsive {
+        width: 1000px;
+    }
+}
+  
