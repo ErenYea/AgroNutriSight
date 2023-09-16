@@ -11,8 +11,8 @@ const HowWorks = (props) => {
   );
   return (
     <div className="wrapper">
-      <div className="row no-gutters process-height">
-        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+      <div className="row no-gutters">
+        <div className="col-sm-12 col-md-8 col-lg-8 col-xl-8">
           <div className="process pl-0">
             <div className="process-content">
               <h4 className="process-small-t-head">{data?.heading}</h4>
@@ -22,8 +22,10 @@ const HowWorks = (props) => {
             </div>
           </div>
         </div>
-
-        <div className="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+      </div>
+      <div className="row no-gutters process-height spacer m-bottom-sm p-bottom-sm">
+        {/* <div className="col-sm-12 col-md-9 col-lg-9 col-xl-9"> */}
+        <div>
           <div className="row no-gutters h-100">
             {data?.subheadings &&
               data?.subheadings.map((item, key) => {
