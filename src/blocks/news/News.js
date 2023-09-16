@@ -10,7 +10,7 @@ const News = () => {
     >
       <div className="wrapper" style={{ marginTop: "4rem" }}>
         <div className="title">
-          <h6 className="text-primary text-uppercase">Blogs</h6>
+          <h6 className="text-primary text-uppercase">News</h6>
         </div>
 
         <div className="title-opacity">
@@ -18,7 +18,7 @@ const News = () => {
         </div>
 
         <div className="description">
-          <h2>Check Our Latest Blog Posts</h2>
+          <h2>Check out the latest AI trends</h2>
         </div>
 
         <div className="blog-shortcode">
