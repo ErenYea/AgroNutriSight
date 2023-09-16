@@ -93,7 +93,7 @@ class MenuModal extends Component {
 
                   <div className="animated fadeinright d-flex justify-content-end w-100 order-0 order-sm-1 order-md-1 order-lg-1 order-xl-1">
                     {this.state.isHomePage ? (
-                      <HomeModalMenu />
+                      <HomeModalMenu close={this.close} />
                     ) : (
                       <ModalMenuPrimary />
                     )}

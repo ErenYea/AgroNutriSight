@@ -1,13 +1,15 @@
 import React from "react";
 
-const HomeModalMenu = () => {
+const HomeModalMenu = ({ close }) => {
+  const click = (x) => {
+    close();
+    window.location.href = process.env.PUBLIC_URL + x;
+  };
   return (
     <nav className="menu-primary">
       <ul className="nav">
-        <li className="nav-item">
-          <a title="Services" href={process.env.PUBLIC_URL + "/#services"}>
-            Products
-          </a>
+        <li className="nav-item" onClick={() => click("/#services")}>
+          <a title="Services">Products</a>
         </li>
 
         <li className="nav-item">
