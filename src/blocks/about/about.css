@@ -18,14 +18,23 @@
 }
 
 /* Apply the animation to the icon list items */
-.icon-list-items {
-  display: flex;
-  animation: moveLeft 20s linear infinite; /* Adjust the duration as needed */
-  animation-iteration-count: infinite; /* Ensures it runs infinitely */
+.icon-list-items .icon-list-item:nth-last-child(-n+14) {
+  display: none;
+}  
+
+@media (min-width: 1280px) {
+  
+  .icon-list-items {
+    display: flex;
+    animation: moveLeft 20s linear infinite; /* Adjust the duration as needed */
+    animation-iteration-count: infinite; /* Ensures it runs infinitely */
+  }
 }
 
+
 /* Style for each icon list item */
+
 .icon-list-item {
-  margin-right: 20px; /* Adjust the spacing between items */
+  margin-right: 20px; 
   white-space: nowrap;
 }

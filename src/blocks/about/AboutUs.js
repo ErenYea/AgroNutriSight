@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./about.css";
 
 const AboutUs = () => {
+  
+  const getLengthBasedOnScreenWidth = () => {
+    return window.innerWidth < 1280 ? 7 : 21;
+  };
+
+  const [arrayLength, setArrayLength] = useState(getLengthBasedOnScreenWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setArrayLength(getLengthBasedOnScreenWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const itemsToRepeat = [
     "Innovating Healthcare Horizons",
     "Customer-Centric Excellence",
@@ -12,7 +31,7 @@ const AboutUs = () => {
     "Chronic Disease Management",
   ];
 
-  const repeatedItems = Array.from({ length: 1000 }).map((_, index) => (
+  const repeatedItems = Array.from({ length: arrayLength }).map((_, index) => (
     <div className="icon-list-item" key={index}>
       <p className="para">
         <span className="d-flex">
@@ -22,6 +41,7 @@ const AboutUs = () => {
       </p>
     </div>
   ));
+
 
   return (
     <div className="wrapper" style={{ marginTop: "4rem" }}>
