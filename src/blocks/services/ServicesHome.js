@@ -4,19 +4,35 @@ import data from "../../data/services/data.json";
 const ServicesHome = () => {
   // console.log("data", data);
   return (
-    <section id="services" className="block spacer p-bottom-xl-2">
-      <div className="wrapper">
-        <div className="row gutter-width-md with-pb-md service-items">
+    <section id="services" className="block spacer p-bottom-xl-2" style={{}}>
+      <div className="wrapper" style={{ paddingTop: "100px" }}>
+        <div
+          className="col-sm-12 col-md-3 col-lg-3 col-xl-3"
+          style={{ paddingLeft: "0px" }}
+        >
+          <div className="process pl-0">
+            <div className="process-content">
+              <h4 className="process-small-t-head">Products</h4>
+              <div className="process-description">
+                {/* <p style={{ textAlign: "justify" }}>losdasdSsd</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row gutter-width-md with-pb-md service-items"
+          style={{ marginTop: "10px" }}
+        >
           {data.map((service) => (
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-              <div className="service">
+              <div className="service" style={{ borderRadius: "10px" }}>
                 {/* <div className="service-icon">
                   <i className="malex-icon-strategy"></i>
                 </div> */}
 
                 <h4 className="service-t-head">{service.name}</h4>
 
-                <p className="service-description">
+                <p className="service-description text-justify">
                   {service.small_description}
                 </p>
 
