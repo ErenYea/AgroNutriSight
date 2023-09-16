@@ -50,7 +50,8 @@
       }
     ],
     "id": 1,
-    "quote": "Unlock the power of neuro-advertising with Biologic AI - Where Insights Shape Impact."
+    "quote": "Unlock the power of neuro-advertising with Biologic AI - Where Insights Shape Impact.",
+    "image": "assets/img/placeholder/card_1.png"
   },
   {
     "name": "CardioClear",
@@ -111,7 +112,8 @@
       }
     ],
     "id": 2,
-    "quote": "CardioClear - Precision Care for a Healthier Heart."
+    "quote": "CardioClear - Precision Care for a Healthier Heart.",
+    "image": "assets/img/placeholder/card_2.png"
   },
   {
     "name": "OncoPath",
@@ -172,7 +174,8 @@
       }
     ],
     "id": 3,
-    "quote": "OncoPath - Precision Tracking for a Healthier Tomorrow."
+    "quote": "OncoPath - Precision Tracking for a Healthier Tomorrow.",
+    "image": "assets/img/placeholder/card_3.png"
   },
   {
     "name": "FractureFinder",
@@ -238,6 +241,7 @@
       }
     ],
     "id": 4,
-    "quote": "FractureFinder - Precision Detection for Enhanced Patient Care."
+    "quote": "FractureFinder - Precision Detection for Enhanced Patient Care.",
+    "image": "assets/img/placeholder/card_4.png"
   }
 ]

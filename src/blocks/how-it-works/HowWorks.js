@@ -17,7 +17,7 @@ const HowWorks = (props) => {
             <div className="process-content">
               <h4 className="process-small-t-head">{data?.heading}</h4>
               <div className="process-description">
-                <h6>{data?.description}</h6>
+                <p style={{ textAlign: "justify" }}>{data?.description}</p>
               </div>
             </div>
           </div>
@@ -36,7 +36,10 @@ const HowWorks = (props) => {
                     <div className={"process process-color-" + item.color}>
                       <div className="process-content">
                         <h5 className="process-t-head">{item.heading}</h5>
-                        <p className="process-description">
+                        <p
+                          className="process-description"
+                          style={{ textAlign: "center" }}
+                        >
                           {item.description}
                         </p>
                       </div>

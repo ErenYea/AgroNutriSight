@@ -12,15 +12,15 @@
         max-width: 39.842rem;
     }
 
-    &.page-title-ml {
-        .title, .description {
-            margin-left: 8.7%;
+    // &.page-title-ml {
+    //     .title, .description {
+    //         margin-left: 8.7%;
 
-            @media #{$media_md} {
-                margin-left: 0;
-            }
-        }
-    }
+    //         @media #{$media_md} {
+    //             margin-left: 0;
+    //         }
+    //     }
+    // }
 
     &.with-img {
         position: relative;
