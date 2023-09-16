@@ -42,6 +42,7 @@ const ServicesHome = () => {
                     src={service.image}
                     alt=""
                     style={{ width: "150px", height: "100px" }}
+                    loading="lazy"
                   />
                 </div>
 
