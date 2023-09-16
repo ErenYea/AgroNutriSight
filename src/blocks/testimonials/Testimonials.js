@@ -76,7 +76,7 @@ class Testimonials extends Component {
     </ol>
     <div className='mx-auto' style={{width: '80%'}}>
 
-        <video autoplay muted loop preload="auto" controls class="stylish-video">
+        <video muted loop controls autoPlay class="stylish-video">
             <source src="assets/img/placeholder/vid.mp4" type="video/mp4"/>
         </video>
 
