@@ -37,7 +37,12 @@ const HowWorks = (props) => {
                   >
                     <div className={"process process-color-" + item.color}>
                       <div className="process-content">
-                        <h5 className="process-t-head">{item.heading}</h5>
+                        <h5
+                          className="process-t-head"
+                          style={{ textAlign: "center" }}
+                        >
+                          {item.heading}
+                        </h5>
                         <p
                           className="process-description"
                           style={{ textAlign: "center" }}

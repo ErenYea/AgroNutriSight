@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import '../../App.css';
-import TestimonialsData from '../../data/testimonials/testimonialsData';
+import React, { Component } from "react";
+import "../../App.css";
+import TestimonialsData from "../../data/testimonials/testimonialsData";
 
 class Testimonials extends Component {
   constructor(props) {
@@ -94,54 +94,52 @@ class Testimonials extends Component {
           className="carousel slide"
           data-ride="carousel"
         >
-          <div className="mx-auto" style={{ width: '80%' }} key={currentIndex}>
-            <video
-              muted
-              loop
-              controls
-              autoPlay
-              className="stylish-video"
-            >
+          <div className="mx-auto" style={{ width: "80%" }} key={currentIndex}>
+            <video muted loop controls autoPlay className="stylish-video">
               <source src={currentTestimonial.videoSrc} type="video/mp4" />
             </video>
             <div
               className={`title ${
-                this.state.fadeOutTitle ? 'fade-out' : this.state.fadeInTitle ? 'fade-in' : ''
+                this.state.fadeOutTitle
+                  ? "fade-out"
+                  : this.state.fadeInTitle
+                  ? "fade-in"
+                  : ""
               }`}
-              style={{ marginTop: '4rem' }}
+              style={{ marginTop: "4rem" }}
             >
               <h6 className="text-primary text-uppercase">Health Tech</h6>
             </div>
             <div
               className={`description ${
                 this.state.fadeOutDescription
-                  ? 'fade-out'
+                  ? "fade-out"
                   : this.state.fadeInDescription
-                  ? 'fade-in'
-                  : ''
+                  ? "fade-in"
+                  : ""
               } text-tertiary`}
             >
-              <h2 style={{width: '100%'}}>{currentTestimonial.name}</h2>
+              <h2 style={{ width: "100%" }}>{currentTestimonial.name}</h2>
             </div>
             <div
               className={`adv-slider-reviews ${
                 this.state.fadeOutReviews
-                  ? 'fade-out'
+                  ? "fade-out"
                   : this.state.fadeInReviews
-                  ? 'fade-in'
-                  : ''
+                  ? "fade-in"
+                  : ""
               } text-tertiary`}
             >
-              <div className="adv-slider-reviews-img">
+              {/* <div className="adv-slider-reviews-img">
                 <img src="assets/img/demo/11_img.png" alt="Icon" />
-              </div>
+              </div> */}
               <div
                 className={`adv-swiper-container reviews-text ${
                   this.state.fadeOutText
-                    ? 'fade-out'
+                    ? "fade-out"
                     : this.state.fadeInText
-                    ? 'fade-in'
-                    : ''
+                    ? "fade-in"
+                    : ""
                 }`}
               >
                 <div className="adv-swiper-wrapper reviews-text-items">
@@ -161,7 +159,10 @@ class Testimonials extends Component {
             data-slide="prev"
             onClick={this.goToPrevSlide}
           >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
             <span className="sr-only">Previous</span>
           </a>
           <a
@@ -171,7 +172,10 @@ class Testimonials extends Component {
             data-slide="next"
             onClick={this.goToNextSlide}
           >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
             <span className="sr-only">Next</span>
           </a>
         </div>
