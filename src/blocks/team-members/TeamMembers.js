@@ -103,6 +103,7 @@ const TeamMembers = () => {
                           src={member.imgSrc}
                           alt={member.name}
                           style={{ borderRadius: "10px" }}
+                          loading="lazy"
                         />
                       </div>
                     </div>
