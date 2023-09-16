@@ -9,7 +9,7 @@ const HomeModalMenu = ({ close }) => {
     <nav className="menu-primary">
       <ul className="nav">
         <li className="nav-item" onClick={() => click("/#services")}>
-          <a title="Services">Products</a>
+          <p title="Services">Products</p>
         </li>
 
         <li className="nav-item">
