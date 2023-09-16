@@ -1,0 +1,251 @@
+[
+  {
+    "name": "EmoGaze Insights",
+    "sub_name": "Unveiling Ad Impact with fMRI and BGI",
+    "small_description": "Biologic AI boosts ad ROI with fMRI and Eye Tracking, optimizing campaigns and trimming unnecessary spending.",
+    "description": "At Biologic AI, we combine fMRI with Eye Tracking and Brain Guided Interpretation (BGI) to obtain additional valuable information. fMRI measures the unconscious emotions and reactions activated by your ads.  The measurements are judged against established benchmark for effective advertising. This allows you to optimize your ads and if possible, reduce ad-spending by cutting out unnecessary advertising time.",
+    "DetailedDescription": "At Biologic AI, we've revolutionized the world of advertising by bringing neuroscience into the fold. Our cutting-edge fMRI (functional Magnetic Resonance Imaging) combined with Eye Tracking and Brain Guided Interpretation (BGI) solution opens up a new dimension in understanding how your audience responds to advertising stimuli.",
+    "subheadings": [
+      {
+        "heading": "The Power of Neuro-Advertising",
+        "description": "Traditional advertising strategies rely heavily on consumer surveys, focus groups, and behavioral analytics. While these methods provide valuable insights, they often miss the unspoken responses and emotional reactions that can be pivotal in advertising success. This is where our technology shines.",
+        "subheadings": [
+          {
+            "heading": "fMRI Unlocks Unconscious Reactions",
+            "description": "Our solution employs fMRI, a non-invasive imaging technique that captures real-time brain activity. It reveals the unconscious emotions and reactions evoked by your ads. This is a game-changer, as it allows you to delve deep into the minds of your target audience and understand how they truly feel about your brand and messaging.",
+            "color": "1"
+          },
+          {
+            "heading": "Eye Tracking for Visual Engagement",
+            "description": "Eye Tracking complements fMRI by tracking the viewer's gaze and attention. It provides crucial data on which parts of your ad draw the most attention and how the visual elements impact engagement. This information is invaluable for optimizing ad design and visual storytelling.",
+            "color": "2"
+          },
+          {
+            "heading": "Brain Guided Interpretation (BGI)",
+            "description": "BGI is the core intelligence behind our solution. It deciphers the intricate neural patterns revealed by fMRI and Eye Tracking, translating them into actionable insights. Our AI algorithms analyze these patterns against established benchmarks for effective advertising, helping you understand what's working and what isn't.",
+            "color": "3"
+          }
+        ]
+      },
+      {
+        "heading": "Transforming Advertising Efficiency",
+        "subheadings": [
+          {
+            "heading": "Optimize Your Ads",
+            "description": "Armed with data on the emotional impact and visual engagement of your ads, you can fine-tune your content to resonate more deeply with your audience."
+          },
+          {
+            "heading": "Reduce Ad-Spending",
+            "description": " By identifying which elements of your advertising campaigns are less effective, you can cut out unnecessary spending and focus your resources on strategies that yield better results."
+          }
+        ]
+      },
+      {
+        "heading": "A Competitive Edge in Advertising",
+        "description": "In today's crowded marketplace, understanding the subconscious reactions of your audience can be a game-changer. It allows you to create more compelling, emotionally resonant ads that drive brand loyalty and conversion."
+      },
+      {
+        "heading": "Your Path to Advertising Excellence",
+        "description": "With Biologic AI's fMRI, Eye Tracking, and BGI solution, you're not just advertising; you're conducting neuroscience-driven marketing. Gain unparalleled insights into the minds of your audience, optimize your advertising campaigns, and maximize the impact of your brand. Elevate your advertising to the next level with Biologic AI."
+      }
+    ],
+    "id": 1,
+    "quote": "Unlock the power of neuro-advertising with Biologic AI - Where Insights Shape Impact.",
+    "image": "assets/img/placeholder/card_1.png",
+    "video": "assets/img/placeholder/emo.mp4"
+  },
+  {
+    "name": "CardioClear",
+    "sub_name": "Precision Heart Disease Care Powered by AI",
+    "small_description": "AI-driven heart disease care via CCTA imaging for early atherosclerosis detection, personalized treatment, and improved outcomes.",
+    "description": "CardioClear is a digital healthcare company transforming the way clinicians approach the treatment of heart disease. Our clinically-proven, AI-based digital care platform works with coronary computed tomography angiography (CCTA) imaging to help clinicians precisely identify and define atherosclerosis earlier, so they can provide personalized, life-saving treatment plans for all patients throughout their care continuum. We measure atherosclerosis - plaque build-up in the heart's arteries - not indirect markers such as risk factors and symptoms of disease. Our AI-enabled digital care pathway offers simpler, faster, more accurate heart disease evaluation and reporting that's tailored to each stakeholder, improving overall clinical and financial outcomes.",
+    "DetailedDescription": "CardioClear represents a groundbreaking digital healthcare product that is poised to reshape the landscape of cardiac care. We are on a mission to empower clinicians with a clinically-proven, AI-based digital care platform that seamlessly integrates with Coronary Computed Tomography Angiography (CCTA) imaging, enabling them to accurately identify and define atherosclerosis at its earliest stages. By doing so, we equip healthcare providers with the means to deliver personalized, life-saving treatment plans that span the entire patient care continuum.",
+    "subheadings": [
+      {
+        "heading": "The CardioClear Advantage",
+        "description": "Heart disease is a formidable adversary, and its early detection and individualized management are paramount to saving lives. While conventional methods primarily rely on indirect markers such as risk factors and symptoms, CardioClear takes a pioneering approach. We directly measure atherosclerosis – the accumulation of plaque within the heart's arteries – providing a precise and comprehensive assessment of a patient's cardiovascular health."
+      },
+      {
+        "heading": "Key Features and Benefits",
+        "description": "Early Detection for Lifesaving Interventions: CardioClear's AI-driven platform empowers clinicians to detect atherosclerosis at its nascent stage, well before clinical symptoms manifest. This early diagnosis enables targeted interventions that can significantly enhance patient outcomes.",
+        "subheadings": [
+          {
+            "heading": "Tailored Treatment Plans",
+            "description": "Every patient is unique, and so are their cardiovascular needs. CardioClear equips clinicians with the ability to craft treatment plans that are precisely aligned with each patient's specific atherosclerotic profile, thereby optimizing the likelihood of a successful outcome.",
+            "color": "1"
+          },
+          {
+            "heading": "Efficiency in Evaluation",
+            "description": "Traditional cardiac assessments can be time-consuming and subject to human error. Our AI-enabled digital care pathway streamlines the evaluation process, delivering swifter and more precise results. This expedites decision-making and the initiation of treatment.",
+            "color": "2"
+          },
+          {
+            "heading": "Comprehensive Reporting",
+            "description": " CardioClear generates comprehensive, personalized reports for all stakeholders, including patients, referring physicians, and healthcare facilities. These reports not only enhance clinical decision-making but also improve financial outcomes by streamlining administrative processes.",
+            "color": "3"
+          }
+        ]
+      },
+      {
+        "heading": "A Closer Look at Our Technology",
+        "subheadings": [
+          {
+            "heading": "AI-Powered Precision",
+            "description": "Our platform employs cutting-edge machine learning algorithms to meticulously analyze CCTA images with an unprecedented level of accuracy. It identifies and quantifies atherosclerotic lesions, providing insights that were previously attainable only through invasive procedures."
+          },
+          {
+            "heading": "Seamless Integration",
+            "description": " CardioClear seamlessly integrates into existing healthcare systems and workflows, ensuring minimal disruption and maximum efficiency."
+          },
+          {
+            "heading": "Clinical Validation",
+            "description": "Our platform has undergone extensive clinical validation, demonstrating its efficacy and reliability in advancing cardiovascular care."
+          }
+        ]
+      },
+      {
+        "heading": "Empowering the Future of Cardiac Care",
+        "description": "CardioClear represents more than just a technological innovation; it signifies a lifeline for patients at risk of heart disease. We stand at the forefront of a healthcare revolution, where AI-precision meets compassionate care. By detecting atherosclerosis at its inception and crafting personalized treatment plans, we are not merely saving lives but also alleviating the burden on healthcare systems and enhancing overall clinical and financial outcomes."
+      },
+      {
+        "heading": "Join Us in Shaping a Healthier Tomorrow",
+        "description": "With CardioClear, we're not just revolutionizing cardiac care; we're revolutionizing lives. Join us in our commitment to a future where heart disease is not merely treatable but preventable, and where every patient receives the care they deserve."
+      }
+    ],
+    "id": 2,
+    "quote": "CardioClear - Precision Care for a Healthier Heart.",
+    "image": "assets/img/placeholder/card_2.png",
+    "video": "assets/img/placeholder/cardio.mp4"
+  },
+  {
+    "name": "OncoPath",
+    "sub_name": "AI-Driven Disease Progression Tracking",
+    "small_description": "Our solution simplifies oncology care by automating lesion quantification, tracking, and therapy response reporting, seamlessly integrated with medical records.",
+    "description": "Tailored for oncologists, our solution streamlines disease progression monitoring with automated lesion quantification, tracking for longitudinal reports, and automatic therapy response criteria reporting, seamlessly integrated with EMRs or Tempus Hub",
+    "DetailedDescription": "OncoPath is an avant-garde solution that redefines the way oncologists approach the intricate task of monitoring disease progression in cancer patients. Oncologists and healthcare providers are constantly challenged by the need to accurately track the evolution of cancer within their patients. Our state-of-the-art platform offers a tailor-made, AI-driven approach that automates lesion quantification, facilitates seamless longitudinal tracking, and automatically generates detailed reports on therapy response criteria. These functionalities are seamlessly integrated with Electronic Medical Records (EMRs) or Tempus Hub, ushering in a new era of oncological care.",
+    "subheadings": [
+      {
+        "heading": "The OncoPath Advantage",
+        "description": "Cancer is a dynamic disease, and its progression requires meticulous and timely monitoring to guide treatment decisions effectively. OncoPath equips oncologists and healthcare providers with cutting-edge tools and capabilities that empower them to stay ahead of cancer's evolving nature."
+      },
+      {
+        "heading": "Key Features and Benefits",
+        "subheadings": [
+          {
+            "heading": "Automated Lesion Quantification",
+            "description": "OncoPath employs advanced AI algorithms to automatically quantify and analyze lesions in medical imaging. This not only reduces manual workload but also enhances accuracy in identifying and tracking disease progression.",
+            "color": "1"
+          },
+          {
+            "heading": "Seamless Longitudinal Tracking",
+            "description": "Tracking the changes in cancer over time is paramount. OncoPath simplifies this process by seamlessly connecting data points across multiple time points, creating a comprehensive picture of disease evolution.",
+            "color": "2"
+          },
+          {
+            "heading": "Automatic Therapy Response Reporting",
+            "description": "Our platform generates detailed therapy response reports, saving valuable time for healthcare professionals while providing clear insights into treatment efficacy.",
+            "color": "3"
+          },
+          {
+            "heading": "Integration with EMRs and Tempus Hub",
+            "description": "OncoPath is designed to seamlessly integrate with existing healthcare systems, ensuring that vital information is readily accessible when and where it is needed most.",
+            "color": "1"
+          }
+        ]
+      },
+      {
+        "heading": "A Closer Look at Our Technology",
+        "subheadings": [
+          {
+            "heading": "AI-Powered Precision",
+            "description": "OncoPath's machine learning algorithms are rigorously trained to analyze and interpret medical imaging data with an exceptional degree of accuracy."
+          },
+          {
+            "heading": "Continuous Learning",
+            "description": "Our platform continuously evolves by learning from new data and incorporating the latest advancements in oncology research."
+          }
+        ]
+      },
+      {
+        "heading": "Empowering the Future of Oncological Care",
+        "description": "OncoPath is more than a technological innovation; it represents a transformative shift in the way cancer is monitored and managed. By automating critical aspects of disease progression tracking, we enable healthcare providers to make more informed decisions and optimize patient care."
+      },
+      {
+        "heading": "Join Us in Shaping a Healthier Tomorrow",
+        "description": "With OncoPath, we're not just advancing oncological care; we're advancing lives. Join us in our commitment to a future where cancer is met with even greater precision, and where every patient receives the care they deserve."
+      }
+    ],
+    "id": 3,
+    "quote": "OncoPath - Precision Tracking for a Healthier Tomorrow.",
+    "image": "assets/img/placeholder/card_3.png",
+    "video": "assets/img/placeholder/onco.mp4"
+  },
+  {
+    "name": "FractureFinder",
+    "sub_name": "AI-Enhanced Bone Fracture Detection",
+    "small_description": "FractureFinder's AI detects concealed fractures, aiding precise diagnosis for improved patient care and outcomes, especially in wrist and hip cases.",
+    "description": "Our AI-driven medical imaging solution designed to uncover concealed bone fractures in radiological scans. This innovative technology harnesses machine learning algorithms to identify subtle patterns indicative of fractures, assisting healthcare professionals in accurate diagnosis and timely intervention. A recent study demonstrated its efficacy in detecting wrist fractures invisible to the human eye, while also enhancing the identification of elusive hip fractures. FractureFinder empowers radiology experts with advanced tools to improve patient care and outcomes.",
+    "DetailedDescription": "FractureFinder is a pioneering AI-driven medical imaging solution that heralds a new era in the field of radiology. It has been meticulously designed to address a critical challenge faced by healthcare professionals worldwide: the accurate and timely detection of concealed bone fractures within radiological scans. Leveraging state-of-the-art machine learning algorithms, FractureFinder identifies subtle patterns indicative of fractures, offering invaluable assistance to healthcare professionals in achieving precise diagnoses and initiating timely interventions. A recent study has further reaffirmed its exceptional efficacy in detecting wrist fractures that are invisible to the human eye and enhancing the identification of elusive hip fractures. With FractureFinder, radiology experts gain access to advanced tools that significantly improve patient care and overall outcomes.",
+    "subheadings": [
+      {
+        "heading": "The FractureFinder Advantage",
+        "description": "Bone fractures are a common yet complex medical issue. While many fractures are readily identifiable, others can prove challenging to detect, often requiring highly specialized expertise. FractureFinder revolutionizes this aspect of radiology, providing a powerful tool that enhances diagnostic accuracy, reduces uncertainty, and ultimately improves patient care."
+      },
+      {
+        "heading": "Key Features and Benefits",
+        "subheadings": [
+          {
+            "heading": "AI-Powered Precision",
+            "description": "FractureFinder's core strength lies in its cutting-edge machine learning algorithms. These algorithms have been rigorously trained on extensive datasets of radiological scans, enabling them to discern even the most subtle signs of fractures.",
+            "color": "1"
+          },
+          {
+            "heading": "Timely Intervention",
+            "description": "Early detection of fractures is crucial for timely and effective treatment. FractureFinder empowers healthcare professionals to initiate interventions promptly, preventing potential complications and expediting the healing process.",
+            "color": "2"
+          },
+          {
+            "heading": "Invisible Fracture Detection",
+            "description": "The recent study underscores FractureFinder's exceptional capability to identify wrist fractures that often elude human observation. This capability is especially critical in scenarios where timely diagnosis is imperative.",
+            "color": "3"
+          },
+          {
+            "heading": "Enhanced Hip Fracture Identification",
+            "description": "Hip fractures can be challenging to detect due to the presence of soft tissues. FractureFinder aids in the more accurate identification of hip fractures, reducing misdiagnosis rates and improving patient outcomes.",
+            "color": "1"
+          },
+          {
+            "heading": "Streamlined Workflow",
+            "description": " FractureFinder seamlessly integrates with existing radiology workflows, minimizing disruption and ensuring efficient use of healthcare resources.",
+            "color": "2"
+          }
+        ]
+      },
+      {
+        "heading": "A Closer Look at Our Technology",
+        "subheadings": [
+          {
+            "heading": "Robust Machine Learning",
+            "description": "FractureFinder's machine learning models are continuously refined and updated to keep pace with the latest advancements in radiology and fracture detection."
+          },
+          {
+            "heading": "User-Friendly Interface",
+            "description": "Our platform boasts an intuitive user interface that facilitates ease of use for radiology experts, ensuring they can maximize the tool's potential without unnecessary complexities."
+          }
+        ]
+      },
+      {
+        "heading": "Empowering Radiology Experts",
+        "description": "FractureFinder is more than a technological advancement; it's a game-changer in the field of radiology. By identifying concealed bone fractures with precision, healthcare professionals are empowered to make accurate diagnoses, deliver timely treatments, and ultimately improve patient care and outcomes."
+      },
+      {
+        "heading": "Join Us in Redefining Radiology",
+        "description": "With FractureFinder, we're not just enhancing radiology; we're enhancing lives. Join us in our commitment to a future where concealed fractures are swiftly detected and treated, and where every patient receives the care they deserve."
+      }
+    ],
+    "id": 4,
+    "quote": "FractureFinder - Precision Detection for Enhanced Patient Care.",
+    "image": "assets/img/placeholder/card_4.png",
+    "video": "assets/img/placeholder/fracture.mp4"
+  }
+]

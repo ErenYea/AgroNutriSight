@@ -1,0 +1,41 @@
+.img-responsive {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (min-width: 1280px) {
+    .img-responsive {
+        width: 750px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .img-responsive {
+        width: 1000px;
+    }
+}
+  
+.stylish-video {
+    width: 100%; /* Set the desired width */
+    max-width: 800px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the video horizontally */
+    display: block;
+    border: none; /* Remove the default video border */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+/* Add your CSS animations here */
+.fade-out {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .fade-in {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  

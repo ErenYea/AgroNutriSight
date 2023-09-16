@@ -13,7 +13,7 @@
 	.process-content {
 		position: relative;
 		z-index: 2;
-		@extend .align-self-center;
+		// @extend .align-self-center;
 
 		.process-small-t-head {
 			color: $body_main_element_primary_color;

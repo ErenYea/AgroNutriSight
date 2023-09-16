@@ -286,6 +286,18 @@ html {
 		font-size: 14px;
 	}
 }
+.hamza::before{
+	content: "";
+    display: block;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.55;
+}
+
 
 body {
 	background-color: $body_background_color;
@@ -313,13 +325,18 @@ body {
 	background: $body_main_element_primary_color;
 	color: $white;
 }
-
+.service:hover{
+	font-weight:600;
+	box-shadow: 10px 10px 5px lightblue;
+	
+}
 .wrapper,
 [class*='-section'] [class*='section-boxed'] > [class*='-container'] {
 	max-width: $wrapper_max_w;
 	margin: auto;
 	padding-left: $wrapper_p_l;
 	padding-right: $wrapper_p_r;
+	
 
 	@media #{$media_xxl} {
 		padding-left: $wrapper_p_l_xxl;
@@ -336,7 +353,27 @@ body {
 		padding-right: $wrapper_p_r_sm;
 	}
 }
-
+@media #{$media_md}{
+	.media_hamza{
+		display: flex !important;
+		flex-direction: column !important;
+		.object-fit-cover{
+				margin-top: 10px;
+		}
+		img{
+		
+			margin-left: 0px !important;
+		}
+	}
+	
+}
+@media #{$media_lg}{
+	.media_hamza{
+		img{
+			margin-left: 10px;
+		}
+	}
+}
 @media #{$media_md} {
 	#main {
 		.wrapper,

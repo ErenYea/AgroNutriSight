@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import MetaTags from 'react-meta-tags';
 
 import Loading from '../blocks/loading/Loading';
@@ -12,16 +12,31 @@ import NewsDescription from '../blocks/news/NewsDescription';
 import NewsTags from '../blocks/news/NewsTags';
 import NewsComments from '../blocks/news/NewsComments';
 import Widget from '../blocks/widget/Widget';
+import { useLocation } from 'react-router-dom';
+import News from '../data/news/newsHomeItems';
+import '../App.css'
 
 const NewsSinglePost = () => {
     document.body.classList.add( 'single-post' );
     document.body.classList.add( 'title-opacity-true' );
+    const location = useLocation();
+    const [postId, setPostId] = useState(1)
+    const [news, setNews] = useState('')
+
+    useEffect(()=> {
+        const queryParams = new URLSearchParams(location.search);
+        setPostId(queryParams.get('post'))
+    }, [])
+    
+    useEffect(() => {
+        setNews(News.find(post => post.id === postId))
+    }, [postId])
 
     return (
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>News single post | Malex - Business Consulting Agency React JS Template</title>
+                <title>News | Malex - Business Consulting Agency React JS Template</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -38,31 +53,47 @@ const NewsSinglePost = () => {
             <Header />
 
             <main id="main" className="site-main">
-                <PageTitleNewsSingle />
+                <PageTitleNewsSingle headline={news?.title} />
 
                 <div id="page-content" className="spacer m-top-xl">
                     <div className="wrapper">
                         <div id="single">
                             <div className="row gutter-width-lg">
-                                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 single-content">
-                                    <div className="img object-fit">
-                                        <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/1050x600.jpg" alt="Assessing the Maturity of Your Data Management in Industry" />
-                                        </div>
+                                <div className="d-flex flex-column flex-xl-row justify-content-between">
+                                    <div className="img object-cover px-2">
+                                        <img
+                                            src={news?.imgSrc}
+                                            alt=""
+                                            className='img-responsive'
+                                        />
                                     </div>
 
-                                    <NewsMeta />
 
-                                    <NewsTitle />
+                                    {/* <NewsMeta /> */}
 
-                                    <NewsDescription />
 
-                                    <NewsTags />
+                                    <NewsDescription content={news?.content?.slice(0,4)} />
 
-                                    <NewsComments />
+                                    {/* <NewsTags /> */}
+
+                                    {/* <NewsComments /> */}
                                 </div>
-                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                    <Widget />
+
+                                <NewsTitle header={news?.header} />
+
+                                <div className="d-flex flex-column justify-content-between px-2 py-4">
+                                    {/* <Widget /> */}
+                                    
+                                    { news?.content && (
+
+                                        news?.content.slice(4).map((para) => (
+                                                <p className='text-justify'>
+                                                    {para}
+                                                </p>
+                                            ))
+                                        )
+                                    }
+
                                 </div>
                             </div>
                         </div>

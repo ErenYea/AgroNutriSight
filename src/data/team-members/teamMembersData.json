@@ -1,32 +1,52 @@
 [
-    {
-        "id": "1",
-        "name": "Tom Henders",
-        "imgSrc": "assets/img/placeholder/500x550.jpg",
-        "position": "CEO",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-        "facebook": "https://www.facebook.com/adveits/",
-        "linkedIn": "https://www.linkedin.com/company/18135051/",
-        "instagram": "https://www.instagram.com/adveits/"
-    },
-    {
-        "id": "2",
-        "name": "Tom Henders",
-        "imgSrc": "assets/img/placeholder/500x550.jpg",
-        "position": "CEO",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-        "facebook": "https://www.facebook.com/adveits/",
-        "linkedIn": "https://www.linkedin.com/company/18135051/",
-        "instagram": "https://www.instagram.com/adveits/"
-    },
-    {
-        "id": "3",
-        "name": "Tom Henders",
-        "imgSrc": "assets/img/placeholder/500x550.jpg",
-        "position": "CEO",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-        "facebook": "https://www.facebook.com/adveits/",
-        "linkedIn": "https://www.linkedin.com/company/18135051/",
-        "instagram": "https://www.instagram.com/adveits/"
-    }
+  {
+    "id": "1",
+    "name": "Tom Henders",
+    "imgSrc": "assets/img/placeholder/service_1.png",
+    "position": "Cancer Screening Solutions",
+    "description": "The Future of Early Detection: Our groundbreaking technology utilizes AI-driven analysis of blood biomarkers to detect cancer at its earliest, most treatable stage.Colorectal Cancer (CRC) Focus: Dive into our pioneering CRC blood test,designed to make screening more accessible and significantly improve survival rates.Personalized Screening: Experience tailored cancer screening tests, ensuring effective early detection for each patient.",
+    "facebook": "https://www.facebook.com/adveits/",
+    "linkedIn": "https://www.linkedin.com/company/18135051/",
+    "instagram": "https://www.instagram.com/adveits/"
+  },
+  {
+    "id": "2",
+    "name": "Tom Henders",
+    "imgSrc": "assets/img/placeholder/service_2.png",
+    "position": "AI Integration for Healthcare Providers",
+    "description": "Seamless Integration: Discover how our AI solutions seamlessly integrate into healthcare systems, enhancing diagnostic accuracy and treatment planning. Efficiency and Precision: Witness the power of AI in processing vast medical data with unmatched speed and precision, supporting healthcare professionals in their crucial work.Improved Patient Care: Experience better patient outcomes through AI-guided treatment recommendations and personalized care plans.",
+    "facebook": "https://www.facebook.com/adveits/",
+    "linkedIn": "https://www.linkedin.com/company/18135051/",
+    "instagram": "https://www.instagram.com/adveits/"
+  },
+  {
+    "id": "3",
+    "name": "Tom Henders",
+    "imgSrc": "assets/img/placeholder/service_3.png",
+    "position": "AI Consulting and Research Collaborations",
+    "description": "AI Expertise: Leverage our team's expertise in AI for healthcare through consulting services, from strategy development to implementation.Research Collaborations: Join forces with BioLogic AI for cutting-edge research partnerships aimed at advancing healthcare AI solutions.Regulatory Guidance: Navigate the complex world of healthcare regulations with our expert guidance, ensuring compliance and safety.",
+    "facebook": "https://www.facebook.com/adveits/",
+    "linkedIn": "https://www.linkedin.com/company/18135051/",
+    "instagram": "https://www.instagram.com/adveits/"
+  },
+  {
+    "id": "4",
+    "name": "Tom Henders",
+    "imgSrc": "assets/img/placeholder/service_4.png",
+    "position": "AI-Enhanced Medical Devices",
+    "description": "Innovative Devices: Explore our range of AI-enhanced medical devices, designed to empower healthcare professionals and improve patient outcomes. Diagnostic Tools: Learn about our AI-powered diagnostic tools, revolutionizing the speed and accuracy of medical assessments. Therapeutic Solutions: Witness the future of AI-driven therapies, tailored to individual patient needs for more effective treatments.",
+    "facebook": "https://www.facebook.com/adveits/",
+    "linkedIn": "https://www.linkedin.com/company/18135051/",
+    "instagram": "https://www.instagram.com/adveits/"
+  },
+  {
+    "id": "5",
+    "name": "Tom Henders",
+    "imgSrc": "assets/img/placeholder/service_5.png",
+    "position": "Educational Resources",
+    "description": "AI in Healthcare: Stay informed with our educational resources, including articles, webinars, and whitepapers, covering the latest developments in AI for health. Training Programs: Enroll in our AI training programs for healthcare professionals, unlocking the potential of AI in your practice. Community Engagement: Join our community of healthcare and AI enthusiasts to exchange knowledge and ideas.",
+    "facebook": "https://www.facebook.com/adveits/",
+    "linkedIn": "https://www.linkedin.com/company/18135051/",
+    "instagram": "https://www.instagram.com/adveits/"
+  }
 ]

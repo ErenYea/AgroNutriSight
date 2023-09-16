@@ -48,16 +48,6 @@ const AboutUs = () => {
                         <section id="about-us" className="block spacer p-top-xl p-bottom-xl">
                             <AboutsUs />
                         </section>
-
-                        <section id="team-members" className="block bg-white-before spacer p-top-xl p-bottom-xl">
-                            <TeamMembers />
-                        </section>
-
-                        <Testimonials />
-
-                        <div id="clients" className="block bg-white">
-                            <Clients />
-                        </div>
                     </div>
                 </div>
             </main>

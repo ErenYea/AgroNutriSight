@@ -1,9 +1,9 @@
 import React from 'react';
 
-const NewsTitle = () => {
+const NewsTitle = ({ header }) => {
     return (
         <div className="title">
-            <h2>Assessing the Maturity of Your Data Management in Industry</h2>
+            <h2> {header} </h2>
         </div>
     );
 };
