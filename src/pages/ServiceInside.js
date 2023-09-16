@@ -42,11 +42,20 @@ const NewsSinglePost = () => {
           <div className="clearfix">
             <PageTitleServicesInside individualData={individualData} />
 
-            {/* <div id="video" className="block spacer p-top-xl">
+            <div id="video" className="block spacer p-top-xl p-bottom-sm">
               <div className="wrapper">
-                <VideoModal />
+                <video
+                  muted
+                  loop
+                  controls
+                  autoPlay
+                  class="stylish-video shadow bg-white"
+                >
+                  <source src={individualData?.video} type="video/mp4" />
+                </video>
+                {/* <VideoModal /> */}
               </div>
-            </div> */}
+            </div>
 
             <section
               id="how-it-works"
@@ -54,7 +63,6 @@ const NewsSinglePost = () => {
             >
               <HowWorks individualData={individualData} />
             </section>
-
             <section id="price-plans" className="block spacer p-top-xl ">
               <PricePlans individualData={individualData} />
             </section>

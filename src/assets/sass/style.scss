@@ -325,7 +325,11 @@ body {
 	background: $body_main_element_primary_color;
 	color: $white;
 }
-
+.service:hover{
+	font-weight:600;
+	box-shadow: 10px 10px 5px lightblue;
+	
+}
 .wrapper,
 [class*='-section'] [class*='section-boxed'] > [class*='-container'] {
 	max-width: $wrapper_max_w;

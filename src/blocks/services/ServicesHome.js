@@ -5,16 +5,23 @@ const ServicesHome = () => {
   // console.log("data", data);
   return (
     <section id="services" className="block spacer p-bottom-xl-2" style={{}}>
-      <div className="wrapper" style={{ paddingTop: "100px" }}>
+      <div className="wrapper">
         <div
-          className="col-sm-12 col-md-3 col-lg-3 col-xl-3"
+          className="col-sm-12 col-md-8 col-lg-8 col-xl-8 spacer p-bottom-md"
           style={{ paddingLeft: "0px" }}
         >
           <div className="process pl-0">
             <div className="process-content">
               <h4 className="process-small-t-head">Products</h4>
               <div className="process-description">
-                {/* <p style={{ textAlign: "justify" }}>losdasdSsd</p> */}
+                <p style={{ textAlign: "justify" }}>
+                  This section serves as an invitation to explore a range of
+                  groundbreaking products that have been developed to make
+                  significant advancements in two critical areas: healthcare and
+                  advertising. These innovative solutions incorporate
+                  cutting-edge technologies and methodologies to address
+                  challenges and improve outcomes in these fields.
+                </p>
               </div>
             </div>
           </div>
@@ -24,11 +31,19 @@ const ServicesHome = () => {
           style={{ marginTop: "10px" }}
         >
           {data.map((service) => (
-            <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div
+              className="col-sm-12 col-md-4 col-lg-4 col-xl-4"
+              key={service.id}
+            >
               <div className="service" style={{ borderRadius: "10px" }}>
-                {/* <div className="service-icon">
-                  <i className="malex-icon-strategy"></i>
-                </div> */}
+                <div className="service-icon">
+                  {/* <i className="malex-icon-strategy"></i> */}
+                  <img
+                    src={service.image}
+                    alt=""
+                    style={{ width: "150px", height: "100px" }}
+                  />
+                </div>
 
                 <h4 className="service-t-head">{service.name}</h4>
 
