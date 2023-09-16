@@ -1,51 +1,76 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 const HomeModalMenu = ({ close }) => {
   const click = (x) => {
     close();
-    window.location.href = process.env.PUBLIC_URL + x;
+    // window.location.href = process.env.PUBLIC_URL + x;
+    setTimeout(this.set, 800);
   };
   return (
     <nav className="menu-primary">
       <ul className="nav">
-        <li className="nav-item" onClick={() => click("/#services")}>
-          <p title="Services">Products</p>
+        <li className="nav-item">
+          <Link
+            onClick={(e) => click(e)}
+            title="Services"
+            to="services"
+            href="#services"
+          >
+            Products
+          </Link>
         </li>
 
         <li className="nav-item">
-          <a title="Teams" href={process.env.PUBLIC_URL + "/#team-members"}>
+          <Link
+            onClick={(e) => click(e)}
+            title="Teams"
+            to="team-members"
+            href="#team-members"
+          >
             What we offer
-          </a>
+          </Link>
         </li>
 
-        <li className="nav-item">
-          {/* <a title="Pricing" href={ process.env.PUBLIC_URL + "/#pricing" }>Pricing</a> */}
-        </li>
+        {/* <li className="nav-item">
+          <a title="Pricing" href={ process.env.PUBLIC_URL + "/#pricing" }>Pricing</a>
+        </li> */}
 
         <li className="nav-item">
-          <a
+          <Link
+            onClick={(e) => this.click(e)}
             title="Testimonials"
-            href={process.env.PUBLIC_URL + "/#testimonials"}
+            to="testimonials"
+            href="#testimonials"
           >
             Health Tech
-          </a>
+          </Link>
         </li>
 
         <li className="nav-item">
-          <a title="News" href={process.env.PUBLIC_URL + "/#news"}>
+          <Link onClick={(e) => click(e)} title="News" to="news" href="#news">
             News
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a title="About Us" href={process.env.PUBLIC_URL + "/#about-us"}>
+          <Link
+            onClick={(e) => click(e)}
+            title="About Us"
+            to="about-us"
+            href="#about-us"
+          >
             About Us
-          </a>
+          </Link>
         </li>
 
         <li className="nav-item">
-          <a title="Contacts" href={process.env.PUBLIC_URL + "/#contacts"}>
+          <Link
+            onClick={(e) => click(e)}
+            title="Contacts"
+            to="contacts"
+            href="#contacts"
+          >
             Contacts
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
