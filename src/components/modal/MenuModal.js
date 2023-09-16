@@ -101,7 +101,7 @@ class MenuModal extends Component {
                 </div>
               </div>
 
-              <div className="modal-footer">
+              {/* <div className="modal-footer">
                 <div className="d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-row justify-content-between w-100">
                   <div className="modal-text">
                     <p>
@@ -114,7 +114,7 @@ class MenuModal extends Component {
                     <ModalMenuLanguages />
                   </nav>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </Modal>
