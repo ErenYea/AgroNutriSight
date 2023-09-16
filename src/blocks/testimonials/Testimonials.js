@@ -121,7 +121,7 @@ class Testimonials extends Component {
                   : ''
               } text-tertiary`}
             >
-              <h2>{currentTestimonial.position}</h2>
+              <h2 style={{width: '100%'}}>{currentTestimonial.name}</h2>
             </div>
             <div
               className={`adv-slider-reviews ${
@@ -146,8 +146,8 @@ class Testimonials extends Component {
               >
                 <div className="adv-swiper-wrapper reviews-text-items">
                   <div className="adv-swiper-slide reviews-text-item">
-                    <div className="reviews-text-item-content">
-                      <h3>{currentTestimonial.text}</h3>
+                    <div className="reviews-text-item-content text-justify">
+                      <h3>{currentTestimonial.description}</h3>
                     </div>
                   </div>
                 </div>
