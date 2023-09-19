@@ -12,11 +12,28 @@ import Clients from "../blocks/clients/Clients";
 import { useParams } from "react-router-dom";
 
 const NewsSinglePost = () => {
+  const params = useParams();
+  const [individualData, setindividualData] = useState(data[params.id - 1]);
+  // const [subheadingData, setSubheadingData] = useState(
+  //   data[params.id - 1]?.subheadings.filter((x) => x.subheadings !== undefined)
+  // );
+  // const [noheadingData, setNoheadingData] = useState(
+  //   data[params.id - 1]?.subheadings.filter((x) => x.subheadings == undefined)
+  // );
+  // const [seconddata, setSeconddata] = useState(
+  //   subheadingData.length > 2 ? subheadingData[2] : ""
+  // );
+  // const [firstdata, setFirstdata] = useState(
+  //   subheadingData.length > 0 ? subheadingData[0] : ""
+  // );
+  // const [priceplan, setPricePlan] = useState(
+  //   subheadingData.length > 1 ? subheadingData[1] : ""
+  // );
   document.body.classList.add("page");
   document.body.classList.add("title-opacity-true");
-  const params = useParams();
+  var variable = 2;
   console.log("id", params.id);
-  const [individualData, setindividualData] = useState(data[params.id - 1]);
+
   return (
     <Fragment>
       <MetaTags>
@@ -57,94 +74,72 @@ const NewsSinglePost = () => {
               </div>
             </div>
 
-            <section
-              id="how-it-works"
-              className="block bg-white before-block spacer p-top-xl"
-            >
-              <HowWorks individualData={individualData} />
-            </section>
-            <section id="price-plans" className="block spacer p-top-xl ">
-              <PricePlans individualData={individualData} />
-            </section>
+            {individualData?.subheadings.map((data) => {
+              if (data?.subheadings == undefined) {
+                return (
+                  <div
+                    id="clients"
+                    className="block bg-white spacer m-top-xl m-bottom-xl"
+                  >
+                    <section
+                      id="testimonials"
+                      className="block bg-dark spacer p-top-xl p-bottom-xl"
+                    >
+                      <div className="wrapper">
+                        <div className="description text-tertiary">
+                          <h2>{data?.heading}</h2>
+                        </div>
 
-            <div
-              id="clients"
-              className="block bg-white spacer m-top-xl m-bottom-xl"
-            >
-              <section
-                id="testimonials"
-                className="block bg-dark spacer p-top-xl p-bottom-xl"
-              >
-                <div className="wrapper">
-                  {/* <div className="title">
-                    <h6 className="text-primary text-uppercase">
-                      Testimonials
-                    </h6>
-                  </div> */}
+                        <div className="adv-slider-reviews text-tertiary">
+                          <div className="adv-slider-reviews-img">
+                            <img src="assets/img/demo/11_img.png" alt="Icon" />
+                          </div>
 
-                  <div className="description text-tertiary">
-                    <h2>
-                      {
-                        individualData?.subheadings[
-                          individualData?.subheadings.length - 1
-                        ]?.heading
-                      }
-                    </h2>
-                  </div>
+                          <div className="adv-swiper-container reviews-text">
+                            <div className="adv-swiper-wrapper reviews-text-items">
+                              <div className="adv-swiper-slide reviews-text-item">
+                                <div className="reviews-text-item-content">
+                                  <h3>{data?.description}</h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
 
-                  <div className="adv-slider-reviews text-tertiary">
-                    <div className="adv-slider-reviews-img">
-                      <img src="assets/img/demo/11_img.png" alt="Icon" />
-                    </div>
-
-                    <div className="adv-swiper-container reviews-text">
-                      <div className="adv-swiper-wrapper reviews-text-items">
-                        <div className="adv-swiper-slide reviews-text-item">
-                          <div className="reviews-text-item-content">
-                            <h3>
-                              {
-                                individualData?.subheadings[
-                                  individualData?.subheadings.length - 1
-                                ]?.description
-                              }
-                            </h3>
+                          <div className="d-flex align-items-center thumbs">
+                            <div className="adv-swiper-container reviews-thumbs">
+                              <div className="adv-swiper-wrapper reviews-thumbs-items"></div>
+                            </div>
                           </div>
                         </div>
-                        {/* { TestimonialsData && TestimonialsData.map( ( item, key ) => {
-                                    return (
-                                        <div key={ key } className="adv-swiper-slide reviews-text-item">
-                                            <div className="reviews-text-item-content">
-                                                <h3>{ item.text }</h3>
-                                            </div>
-                                        </div>
-                                    );
-                                })} */}
                       </div>
-                    </div>
-
-                    <div className="d-flex align-items-center thumbs">
-                      <div className="adv-swiper-container reviews-thumbs">
-                        <div className="adv-swiper-wrapper reviews-thumbs-items">
-                          {/* { TestimonialsData && TestimonialsData.map( ( item, key ) => {
-                                        return (
-                                            <div key={ key } onClick={ ( e ) => this.handleClick( e ) } className="adv-swiper-slide reviews-thumbs-item" data-reviews-name={ item.author } data-reviews-position={ item.position }>
-                                                <img src={ item.imgSrc } alt={ item.author } />
-                                            </div>
-                                        );
-                                    })} */}
-                        </div>
-                      </div>
-
-                      {/* <div className="reviews-results">
-                                <h6 className="reviews-name" id="reviews-name">{ this.state.name }</h6>
-                                <p className="reviews-positions" id="reviews-positions">{ this.state.position }</p>
-                            </div> */}
-                    </div>
+                    </section>
                   </div>
-                </div>
-              </section>
-              {/* <Clients individualData={individualData} /> */}
-            </div>
+                );
+              } else {
+                if (variable % 2 == 0) {
+                  variable += 1;
+                  return (
+                    <section
+                      id="how-it-works"
+                      className="block bg-white before-block spacer p-top-xl"
+                    >
+                      <HowWorks individualData={data} />
+                    </section>
+                  );
+                } else {
+                  variable += 1;
+
+                  return (
+                    <section
+                      id="price-plans"
+                      className="block spacer p-top-xl "
+                    >
+                      <PricePlans individualData={data} />
+                    </section>
+                  );
+                }
+              }
+            })}
           </div>
         </div>
       </main>

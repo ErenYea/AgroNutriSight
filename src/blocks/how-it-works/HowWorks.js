@@ -3,12 +3,7 @@ import React, { useState } from "react";
 import HowItWorks from "../../data/how-it-works/howItWorksData";
 
 const HowWorks = (props) => {
-  const [data, setData] = useState(
-    props?.individualData?.subheadings[0]?.subheadings == undefined ||
-      props?.individualData?.subheadings[0]?.subheadings == null
-      ? props?.individualData?.subheadings[1]
-      : props?.individualData?.subheadings[0]
-  );
+  const [data, setData] = useState(props?.individualData);
   return (
     <div className="wrapper">
       <div className="row no-gutters">

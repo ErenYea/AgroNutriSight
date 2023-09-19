@@ -61,10 +61,10 @@ const TeamMembers = () => {
 
       <div className="description text-justify">
         <p>
-          Welcome to BioLogic AI, your gateway to cutting-edge AI solutions and
-          products in the realm of healthcare. Our mission is to harness the
-          power of artificial intelligence to transform the healthcare landscape
-          and improve lives. Explore our range of services designed to pave the
+          Welcome to HealthSynX, your strategic partner for introducing
+          cutting-edge healthcare solutions and products to the market. Our
+          mission is to leverage the power of technology to transform healthcare
+          and enhance lives. Explore our range of services crafted to pave the
           way for a healthier future.
         </p>
       </div>

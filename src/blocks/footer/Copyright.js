@@ -5,7 +5,7 @@ const Copyright = () => {
     <div className="copyright">
       <p>
         © {new Date().getFullYear()} Empowering Precision through AI By{" "}
-        <a href="https://www.adveits.com">Biological Ai</a>
+        <a href={process.env.PUBLIC_URL}>HealthSynX</a>
       </p>
     </div>
   );

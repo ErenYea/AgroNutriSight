@@ -22,7 +22,9 @@ const PageTitleHome = () => {
 
           <div className="description spacer p-top-lg">
             <p className="text-justify">
+
               Welcome to HealthSynX, where we're pioneering the future of healthcare in partnership with health tech companies, offering a comprehensive suite of services including branding, commercialization, marketing, and sales, all driven by the transformative force of artificial intelligence
+
             </p>
           </div>
 
