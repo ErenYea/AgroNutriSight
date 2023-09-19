@@ -114,7 +114,7 @@ const AboutUs = () => {
         <b style={{ textAlign: "center", display: "block" }}>Join Us in Shaping the Future</b>
       </p>
 
-      <p style={{ marginTop: "4rem" }}>
+      <p style={{ marginTop: "4rem" }} className="text-justify">
         We extend an invitation to health tech companies and professionals to join us on this remarkable journey toward a future where healthcare is a harmonious blend of science and compassion, driven by technology and enabled by strategic partnerships. Together, we can make a profound impact on the lives of patients and the success of healthcare technology companies.
       </p>
 
