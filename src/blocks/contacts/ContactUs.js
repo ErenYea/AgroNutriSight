@@ -66,7 +66,7 @@ const ContactsUs = () => {
                 </div>
             </div>
 
-            <div className="width-img spacer p-top-xl p-bottom-xl" style={ { backgroundImage: `url( ${ require( "../../assets/img/demo/18_img.png" ) } )` } }>
+            <div className="width-img spacer p-top-xl p-bottom-xl">
                 <div className="wrapper">
                     <div id="contact-form">
                         <div className="title">
