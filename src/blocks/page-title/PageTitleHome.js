@@ -15,19 +15,16 @@ const PageTitleHome = () => {
         <div className="page-title-body page-title-body-space-left">
           <div className="title">
             <h1 className="large">
-              Empowering Precision
-              <br /> through AI
+              Empowering Health Tech Visionaries
+              <br /> for a Smarter Tomorrow
             </h1>
           </div>
 
           <div className="description spacer p-top-lg">
             <p className="text-justify">
-              At HealthSynX, we are at the forefront of a radiological
-              revolution, driven by the transformative potential of Artificial
-              Intelligence. With unwavering dedication and a commitment to
-              excellence, we are reshaping the landscape of medical imaging to
-              provide cutting-edge solutions that empower healthcare
-              professionals and enhance patient care
+
+              Welcome to HealthSynX, where we're pioneering the future of healthcare in partnership with health tech companies, offering a comprehensive suite of services including branding, commercialization, marketing, and sales, all driven by the transformative force of artificial intelligence
+
             </p>
           </div>
 
