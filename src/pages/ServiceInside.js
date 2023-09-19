@@ -12,11 +12,28 @@ import Clients from "../blocks/clients/Clients";
 import { useParams } from "react-router-dom";
 
 const NewsSinglePost = () => {
+  const params = useParams();
+  const [individualData, setindividualData] = useState(data[params.id - 1]);
+  const [subheadingData, setSubheadingData] = useState(
+    data[params.id - 1]?.subheadings.filter((x) => x.subheadings !== undefined)
+  );
+  const [noheadingData, setNoheadingData] = useState(
+    data[params.id - 1]?.subheadings.filter((x) => x.subheadings == undefined)
+  );
+  const [seconddata, setSeconddata] = useState(
+    subheadingData.length > 2 ? subheadingData[2] : ""
+  );
+  const [firstdata, setFirstdata] = useState(
+    subheadingData.length > 0 ? subheadingData[0] : ""
+  );
+  const [priceplan, setPricePlan] = useState(
+    subheadingData.length > 1 ? subheadingData[1] : ""
+  );
   document.body.classList.add("page");
   document.body.classList.add("title-opacity-true");
-  const params = useParams();
+
   console.log("id", params.id);
-  const [individualData, setindividualData] = useState(data[params.id - 1]);
+
   return (
     <Fragment>
       <MetaTags>
@@ -56,16 +73,23 @@ const NewsSinglePost = () => {
                 {/* <VideoModal /> */}
               </div>
             </div>
-
-            <section
-              id="how-it-works"
-              className="block bg-white before-block spacer p-top-xl"
-            >
-              <HowWorks individualData={individualData} />
-            </section>
-            <section id="price-plans" className="block spacer p-top-xl ">
-              <PricePlans individualData={individualData} />
-            </section>
+            {firstdata == "" ? (
+              ""
+            ) : (
+              <section
+                id="how-it-works"
+                className="block bg-white before-block spacer p-top-xl"
+              >
+                <HowWorks individualData={firstdata} />
+              </section>
+            )}
+            {priceplan == "" ? (
+              ""
+            ) : (
+              <section id="price-plans" className="block spacer p-top-xl ">
+                <PricePlans individualData={priceplan} />
+              </section>
+            )}
 
             <div
               id="clients"
@@ -84,11 +108,13 @@ const NewsSinglePost = () => {
 
                   <div className="description text-tertiary">
                     <h2>
-                      {
-                        individualData?.subheadings[
-                          individualData?.subheadings.length - 1
-                        ]?.heading
-                      }
+                      {seconddata == ""
+                        ? individualData?.subheadings[
+                            individualData?.subheadings.length - 1
+                          ]?.heading
+                        : individualData?.subheadings[
+                            individualData?.subheadings.length - 2
+                          ]?.heading}
                     </h2>
                   </div>
 
@@ -102,11 +128,13 @@ const NewsSinglePost = () => {
                         <div className="adv-swiper-slide reviews-text-item">
                           <div className="reviews-text-item-content">
                             <h3>
-                              {
-                                individualData?.subheadings[
-                                  individualData?.subheadings.length - 1
-                                ]?.description
-                              }
+                              {seconddata == ""
+                                ? individualData?.subheadings[
+                                    individualData?.subheadings.length - 1
+                                  ]?.description
+                                : individualData?.subheadings[
+                                    individualData?.subheadings.length - 2
+                                  ]?.description}
                             </h3>
                           </div>
                         </div>
@@ -145,6 +173,13 @@ const NewsSinglePost = () => {
               </section>
               {/* <Clients individualData={individualData} /> */}
             </div>
+            {seconddata == "" ? (
+              ""
+            ) : (
+              <section id="price-plans" className="block spacer p-bottom-xl ">
+                <PricePlans individualData={seconddata} />
+              </section>
+            )}
           </div>
         </div>
       </main>

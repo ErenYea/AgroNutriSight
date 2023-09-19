@@ -22,7 +22,7 @@ const PageTitleHome = () => {
 
           <div className="description spacer p-top-lg">
             <p className="text-justify">
-              At Biologic AI, we are at the forefront of a radiological
+              At HealthSynX, we are at the forefront of a radiological
               revolution, driven by the transformative potential of Artificial
               Intelligence. With unwavering dedication and a commitment to
               excellence, we are reshaping the landscape of medical imaging to

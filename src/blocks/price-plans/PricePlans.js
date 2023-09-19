@@ -5,15 +5,7 @@ import PlansModal from "../../components/modal/PlansModal";
 import PlansData from "../../data/price-plans/pricePlansData";
 
 const PricePlans = (props) => {
-  const [data, setData] = useState(
-    props?.individualData?.subheadings[0]?.subheadings !== undefined
-      ? props?.individualData?.subheadings[1]?.subheadings !== undefined
-        ? props?.individualData?.subheadings[1]
-        : props?.individualData?.subheadings[2]
-      : props?.individualData?.subheadings[1]?.subheadings !== undefined
-      ? props?.individualData?.subheadings[2]
-      : props?.individualData?.subheadings[1]
-  );
+  const [data, setData] = useState(props?.individualData);
   return (
     <div className="wrapper">
       <div className="title">
