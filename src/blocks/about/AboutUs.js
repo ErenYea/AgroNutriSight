@@ -49,7 +49,7 @@ const AboutUs = () => {
         <h6 className="text-primary text-uppercase">About Us</h6>
       </div>
 
-      <div className="row gutter-width-md with-pb-md justify-content-center align-items-center">
+      <div className="row gutter-width-md with-pb-md justify-content-center">
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className="description-2">
             <h2 className="text-justify">
@@ -60,9 +60,17 @@ const AboutUs = () => {
 
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className="description-2">
-            <p className="text-justify">
-              Welcome to HealthSynX, your gateway to the future of healthcare innovation. We are your dedicated partners in catalyzing transformative change within the healthcare industry. At HealthSynX, we specialize in collaborating with health tech companies, combining our expertise to bring their visionary products to the forefront of the healthcare landscape. Our extensive suite of services, encompassing branding, commercialization, marketing, and sales, serves as the catalyst for propelling groundbreaking healthcare solutions into the global market. What sets us apart is our unwavering commitment to harnessing the power of artificial intelligence, leveraging its capabilities to not only shape the future of healthcare but also to empower healthcare tech pioneers. Together, we embark on a journey to redefine healthcare, making it smarter, more accessible, and more effective for all. Welcome to HealthSynX, where innovation knows no bounds, and the future of healthcare begins today.
-            </p>
+            {!window.location.href.includes('/about-us') ? (
+
+              <p className="text-justify">
+                Welcome to HealthSynX, your gateway to the future of healthcare innovation. We are your dedicated partners in catalyzing transformative change within the healthcare industry. At HealthSynX, we specialize in collaborating with health tech companies, combining our expertise to bring their visionary products to the forefront of the healthcare landscape.
+              </p>
+
+            ) : (
+              <p className="text-justify">
+                Welcome to HealthSynX, your gateway to the future of healthcare innovation. We are your dedicated partners in catalyzing transformative change within the healthcare industry. At HealthSynX, we specialize in collaborating with health tech companies, combining our expertise to bring their visionary products to the forefront of the healthcare landscape. Our extensive suite of services, encompassing branding, commercialization, marketing, and sales, serves as the catalyst for propelling groundbreaking healthcare solutions into the global market. What sets us apart is our unwavering commitment to harnessing the power of artificial intelligence, leveraging its capabilities to not only shape the future of healthcare but also to empower healthcare tech pioneers. Together, we embark on a journey to redefine healthcare, making it smarter, more accessible, and more effective for all. Welcome to HealthSynX, where innovation knows no bounds, and the future of healthcare begins today.
+              </p>
+            )}
           </div>
         </div>
       </div>

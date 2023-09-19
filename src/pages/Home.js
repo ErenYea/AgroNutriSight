@@ -1,19 +1,13 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-
 import Loading from "../blocks/loading/Loading";
 import HomeHeader from "../blocks/header/HomeHeader";
 import Footer from "../blocks/footer/Footer";
-
 import PageTitleHome from "../blocks/page-title/PageTitleHome";
 import ServicesHome from "../blocks/services/ServicesHome";
 import AboutsUs from "../blocks/about/AboutUs";
-import AboutImg from "../blocks/about/AboutImg";
-import HowWorks from "../blocks/how-it-works/HowWorks";
 import TeamMembers from "../blocks/team-members/TeamMembers";
 import PricePlans from "../blocks/price-plans/PricePlans";
-import Clients from "../blocks/clients/Clients";
-import VideoModal from "../components/modal/VideoModal";
 import Testimonials from "../blocks/testimonials/Testimonials";
 import News from "../blocks/news/News";
 import ContactsUs from "../blocks/contacts/ContactUs";
@@ -28,7 +22,6 @@ const Home = () => {
       <MetaTags>
         <meta charSet="UTF-8" />
         <title>Home | HealthSynX</title>
-
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="" />
@@ -46,20 +39,9 @@ const Home = () => {
       <main id="main" className="site-main content-no-spacing">
         <div className="content">
           <div className="clearfix">
+
             <PageTitleHome />
-
             <ServicesHome />
-
-            {/* <div id="img" className="block spacer p-top-lg wrapper-normal">
-              <AboutImg />
-            </div> */}
-
-            {/* <section
-              id="how-it-works"
-              className="block bg-white before-block spacer p-bottom-xl-2"
-            >
-              <HowWorks />
-            </section> */}
 
             <section
               id="team-members"
@@ -75,17 +57,9 @@ const Home = () => {
               <PricePlans />
             </section>
 
-            {/* <div id="clients" className="block bg-white spacer m-top-xl">
-              <Clients />
-            </div>
-
-            <div id="video" className="block">
-              <VideoModal />
-            </div> */}
-
             <Testimonials />
-
             <News />
+
             <section
               id="about-us"
               className="block spacer p-top-xl-2 p-bottom-xl-2 "

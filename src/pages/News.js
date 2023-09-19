@@ -1,14 +1,11 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
-
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
-
 import PageTitleNews from '../blocks/page-title/PageTitleNews';
 import Widget from '../blocks/widget/Widget';
 import LoadMoreButton from '../components/loadmore/LoadMore';
-
 import NewsItemsData from '../data/news/newsItems';
 
 const News = () => {
@@ -19,8 +16,7 @@ const News = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>News | Malex - Business Consulting Agency React JS Template</title>
-
+                <title>News | HealthSynX</title>
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="description" content="" />
@@ -32,7 +28,6 @@ const News = () => {
             </MetaTags>
 
             <Loading />
-            
             <Header />
 
             <main id="main" className="site-main">
