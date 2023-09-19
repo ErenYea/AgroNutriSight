@@ -99,7 +99,7 @@ const NewsSinglePost = () => {
                             <div className="adv-swiper-wrapper reviews-text-items">
                               <div className="adv-swiper-slide reviews-text-item">
                                 <div className="reviews-text-item-content">
-                                  <h3>{data?.description}</h3>
+                                  <h3 className="text-justify">{data?.description}</h3>
                                 </div>
                               </div>
                             </div>

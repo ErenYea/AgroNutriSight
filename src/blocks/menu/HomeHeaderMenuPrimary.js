@@ -92,7 +92,7 @@ class HomeHeaderMenuPrimary extends Component {
                 to="services"
                 href="#services"
               >
-                Products
+                Collaboration
               </Link>
             </li>
 

@@ -12,7 +12,7 @@ const PageTitleServicesInside = (props) => {
             <h1 className="large">{props?.individualData?.name}</h1>
           </div>
           <div className="title">
-            <h4 className="large">{props?.individualData?.sub_name}</h4>
+            <h4 className="large" style={{marginTop: '1rem'}}>{props?.individualData?.sub_name}</h4>
           </div>
 
           <div className="title-opacity">

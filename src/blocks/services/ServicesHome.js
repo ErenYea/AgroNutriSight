@@ -12,15 +12,10 @@ const ServicesHome = () => {
         >
           <div className="process pl-0">
             <div className="process-content">
-              <h4 className="process-small-t-head">Products</h4>
+              <h4 className="process-small-t-head">Collaboration</h4>
               <div className="process-description">
                 <p style={{ textAlign: "justify" }}>
-                  This section serves as an invitation to explore a range of
-                  groundbreaking products that have been developed to make
-                  significant advancements in two critical areas: healthcare and
-                  advertising. These innovative solutions incorporate
-                  cutting-edge technologies and methodologies to address
-                  challenges and improve outcomes in these fields.
+                  Discover an intriguing synergy between HealthSynX and prominent health technology development companies, where innovation meets strategy and branding excellence. This partnership has yielded a remarkable fusion of cutting-edge products designed to catalyze breakthroughs in healthcare and advertising. Within these groundbreaking solutions lies a testament to our commitment to addressing challenges while redefining commercial strategies and elevating product branding, all in the pursuit of advancing these critical domains.
                 </p>
               </div>
             </div>

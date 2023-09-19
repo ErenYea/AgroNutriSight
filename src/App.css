@@ -15,6 +15,10 @@
         width: 1000px;
     }
 }
+
+.para {
+    padding: 8px 8px;
+}
   
 .stylish-video {
     width: 100%; /* Set the desired width */

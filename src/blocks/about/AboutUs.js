@@ -96,14 +96,6 @@ const AboutUs = () => {
       </p>
 
       <div className="title" style={{ marginTop: "4rem" }}>
-        <h6 className="text-primary text-uppercase">Our Commitment to Enabling Innovation</h6>
-      </div>
-
-      <p className="text-justify">
-        Dedication to innovation fuels our organization. We are unwavering in our pursuit of expanding the frontiers of what's achievable in healthcare. Our team of visionary experts, comprising scientists, engineers, and healthcare specialists, tirelessly collaborates to craft AI-driven solutions that propel advancements and revolutionize the healthcare landscape.
-      </p>
-
-      <div className="title" style={{ marginTop: "4rem" }}>
         <h6 className="text-primary text-uppercase">Our Core Values</h6>
       </div>
 

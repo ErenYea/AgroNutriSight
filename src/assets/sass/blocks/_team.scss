@@ -27,7 +27,7 @@
 			position: absolute;
 			z-index: 2;
 			// opacity: 0;
-			left: 1.316rem;
+			// left: 1.316rem;
 			bottom: 1.316rem;
 			// bottom: 0.016rem;
 			// background-color: gray;
@@ -35,6 +35,7 @@
 			padding: 1.053rem 1.316rem;
 			min-width: 9.421rem;
 			text-align: center;
+			width: 100%;
 
 			> * {
 				color: $body_text_tertiary_color;
