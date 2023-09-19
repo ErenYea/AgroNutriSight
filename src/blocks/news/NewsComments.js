@@ -17,7 +17,7 @@ const NewsComments = () => {
                             <div className="comment-content">
                                 <div className="comment-content-left">
                                     <div className="comment-img">
-                                        <img src="assets/img/placeholder/110x110.jpg" alt="Rosie Ford" />
+                                        <img src="assets/img/placeholder/110x110.jpg" alt="Rosie Ford" loading='lazy' />
                                     </div>
                                 </div>
 

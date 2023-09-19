@@ -92,7 +92,7 @@ const NewsSinglePost = () => {
 
                         <div className="adv-slider-reviews text-tertiary">
                           <div className="adv-slider-reviews-img">
-                            <img src="assets/img/demo/11_img.png" alt="Icon" />
+                            <img src="assets/img/demo/11_img.png" alt="Icon" loading='lazy' />
                           </div>
 
                           <div className="adv-swiper-container reviews-text">

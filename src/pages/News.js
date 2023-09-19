@@ -48,7 +48,7 @@ const News = () => {
                                                                 <a title={ item.title } href={ process.env.PUBLIC_URL + item.link }>
                                                                     <div className="img object-fit overflow-hidden">
                                                                         <div className="object-fit-cover transform-scale-h">
-                                                                            <img className="card-top-img" src={ item.imgSrc } alt={ item.title } />
+                                                                            <img className="card-top-img" src={ item.imgSrc } alt={ item.title } loading='lazy' />
                                                                         </div>
                                                                     </div>
                                                                 </a>

@@ -42,6 +42,7 @@ const News = () => {
                                 className="card-top-img"
                                 src={item.imgSrc}
                                 alt={item.title}
+                                loading='lazy'
                               />
                             </div>
                           </div>

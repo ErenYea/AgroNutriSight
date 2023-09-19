@@ -58,6 +58,7 @@ const NewsSinglePost = () => {
                                             src={news?.imgSrc}
                                             alt=""
                                             className='img-responsive'
+                                            loading='lazy'
                                         />
                                     </div>
                                     <NewsDescription content={news?.content?.slice(0,4)} />

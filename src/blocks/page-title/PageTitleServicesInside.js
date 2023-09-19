@@ -32,6 +32,7 @@ const PageTitleServicesInside = (props) => {
                 src={props?.individualData?.image}
                 alt="card"
                 style={{ borderRadius: "10px" }}
+                loading='lazy'
               />
             </div>
           </div>

@@ -11,7 +11,7 @@ const Clients = () => {
                         return (
                             <div key={ key } className="clients-item">
                                 <div className="clients-item-content">
-                                    <img src={ item.imgSrc } alt={ item.alt } />
+                                    <img src={ item.imgSrc } alt={ item.alt } loading='lazy' />
                                 </div>
                             </div>
                         );
