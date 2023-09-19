@@ -1,17 +1,11 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import MetaTags from 'react-meta-tags';
-
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
-
 import PageTitleNewsSingle from '../blocks/page-title/PageTitleNewsSingle';
-import NewsMeta from '../blocks/news/NewsMeta';
 import NewsTitle from '../blocks/news/NewsTitle';
 import NewsDescription from '../blocks/news/NewsDescription';
-import NewsTags from '../blocks/news/NewsTags';
-import NewsComments from '../blocks/news/NewsComments';
-import Widget from '../blocks/widget/Widget';
 import { useLocation } from 'react-router-dom';
 import News from '../data/news/newsHomeItems';
 import '../App.css'
@@ -36,7 +30,7 @@ const NewsSinglePost = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>News | Malex - Business Consulting Agency React JS Template</title>
+                <title>News | HealthSynX</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -68,21 +62,13 @@ const NewsSinglePost = () => {
                                         />
                                     </div>
 
-
-                                    {/* <NewsMeta /> */}
-
-
                                     <NewsDescription content={news?.content?.slice(0,4)} />
 
-                                    {/* <NewsTags /> */}
-
-                                    {/* <NewsComments /> */}
                                 </div>
 
                                 <NewsTitle header={news?.header} />
 
                                 <div className="d-flex flex-column justify-content-between px-2 py-4">
-                                    {/* <Widget /> */}
                                     
                                     { news?.content && (
 

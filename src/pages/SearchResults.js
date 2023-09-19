@@ -18,7 +18,7 @@ const SearchResults = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>Search results | Malex - Business Consulting Agency React JS Template</title>
+                <title>Search results | HealthSynX</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />

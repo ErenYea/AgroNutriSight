@@ -17,7 +17,7 @@ const page404 = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>404 | Malex - Business Consulting Agency React JS Template</title>
+                <title>404 | HealthSynX</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -40,12 +40,7 @@ const page404 = () => {
                     <div className="wrapper">
                         <div className="content">
                             <p className="text after">The page you were looking for couldn't be found. The page could be
-                                removed or you misspelled the word while searching for it. Maybe try a search?</p>
-
-                            <div className="form">
-                                <SearchForm />
-                            </div>
-
+                                removed or you misspelled the word while searching for it.</p>
                             <BackToHome />
                         </div>
                     </div>

@@ -10,6 +10,7 @@ const AboutUs = () => {
   const [arrayLength, setArrayLength] = useState(getLengthBasedOnScreenWidth);
 
   useEffect(() => {
+    console.log(window.location.href)
     const handleResize = () => {
       setArrayLength(getLengthBasedOnScreenWidth);
     };

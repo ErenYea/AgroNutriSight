@@ -1,16 +1,11 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
-
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
-
 import PageTitleAbout from '../blocks/page-title/PageTitleAbout';
 import AboutImg from '../blocks/about/AboutImg';
 import AboutsUs from '../blocks/about/AboutUs';
-import TeamMembers from '../blocks/team-members/TeamMembers';
-import Testimonials from '../blocks/testimonials/Testimonials';
-import Clients from '../blocks/clients/Clients';
 
 const AboutUs = () => {
     document.body.classList.add( 'page' );
@@ -20,7 +15,7 @@ const AboutUs = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>About us | Malex - Business Consulting Agency React JS Template</title>
+                <title>About Us | HealthSynX</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
