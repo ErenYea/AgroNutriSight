@@ -49,11 +49,11 @@ const AboutUs = () => {
         <h6 className="text-primary text-uppercase">About Us</h6>
       </div>
 
-      <div className="row gutter-width-md with-pb-md">
+      <div className="row gutter-width-md with-pb-md justify-content-center align-items-center">
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className="description-2">
             <h2 className="text-justify">
-              Biologic AI - Where Science Meets Compassion in Pursuit of a Healthier Tomorrow
+              HealthSynX - Where Technology and Expertise Converge to Create a Healthier Tomorrow for All
             </h2>
           </div>
         </div>
@@ -61,10 +61,7 @@ const AboutUs = () => {
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className="description-2">
             <p className="text-justify">
-              Our unwavering mission is to transform healthcare by unlocking the limitless capabilities
-              of AI-driven solutions. We firmly believe that cutting-edge technology has the potential
-              to tackle the most intricate challenges in healthcare, spanning from early disease
-              detection to the precision of treatment planning.
+              Welcome to HealthSynX, your gateway to the future of healthcare innovation. We are your dedicated partners in catalyzing transformative change within the healthcare industry. At HealthSynX, we specialize in collaborating with health tech companies, combining our expertise to bring their visionary products to the forefront of the healthcare landscape. Our extensive suite of services, encompassing branding, commercialization, marketing, and sales, serves as the catalyst for propelling groundbreaking healthcare solutions into the global market. What sets us apart is our unwavering commitment to harnessing the power of artificial intelligence, leveraging its capabilities to not only shape the future of healthcare but also to empower healthcare tech pioneers. Together, we embark on a journey to redefine healthcare, making it smarter, more accessible, and more effective for all. Welcome to HealthSynX, where innovation knows no bounds, and the future of healthcare begins today.
             </p>
           </div>
         </div>
@@ -79,7 +76,7 @@ const AboutUs = () => {
       </div>
 
       <p className="text-justify">
-        At Biologic AI, we are driven by a singular mission: to revolutionize healthcare by harnessing the boundless potential of AI-driven solutions. We believe that cutting-edge technology has the capacity to address some of the most complex challenges in the medical field, from early disease detection to precision treatment planning.
+        At HealthSynX, our unwavering mission is to lead the charge in transforming the healthcare landscape by unlocking the boundless potential of AI-driven solutions. We firmly believe that advanced technology holds the key to addressing the most intricate challenges in healthcare, spanning from early disease detection to the precision of treatment planning. While we don't directly innovate, our expertise lies in supporting and accelerating the commercialization and branding of innovative healthcare products and solutions.
       </p>
 
       <div className="title" style={{ marginTop: "4rem" }}>
@@ -87,15 +84,15 @@ const AboutUs = () => {
       </div>
 
       <p className="text-justify">
-        Our vision is one of a future where healthcare is not just a reactive response to illness but a proactive, personalized, and precision-driven endeavor. We envision a world where AI empowers healthcare professionals, improves patient outcomes, and makes healthcare more accessible and efficient for all.
+        Our vision is a future where healthcare is no longer merely a response to illness but a proactive, personalized, and precision-guided endeavor. We see a world where AI empowers healthcare professionals, enhances patient outcomes, and makes healthcare more accessible and efficient for all. We're here to facilitate this vision in partnership with health tech innovators.
       </p>
 
       <div className="title" style={{ marginTop: "4rem" }}>
-        <h6 className="text-primary text-uppercase">Our Commitment to Innovation</h6>
+        <h6 className="text-primary text-uppercase">Our Commitment to Enabling Innovation</h6>
       </div>
 
       <p className="text-justify">
-        Innovation is at the core of everything we do. We are committed to pushing the boundaries of what's possible in healthcare. Our team of visionary scientists, engineers, and healthcare experts collaborates tirelessly to develop AI-driven solutions that drive progress and transform the patient experience.
+        Dedication to innovation fuels our organization. We are unwavering in our pursuit of expanding the frontiers of what's achievable in healthcare. Our team of visionary experts, comprising scientists, engineers, and healthcare specialists, tirelessly collaborates to craft AI-driven solutions that propel advancements and revolutionize the healthcare landscape.
       </p>
 
       <div className="title" style={{ marginTop: "4rem" }}>
@@ -103,13 +100,13 @@ const AboutUs = () => {
       </div>
 
       <p className="text-justify">
-        At Biologic AI, we are guided by a set of core values that define who we are and how we operate:
+        At HealthSynX, our core values shape our identity and guide our actions:
       </p>
-      <ul>
-        <li><b>Innovation:</b> We thrive on innovation, constantly pushing boundaries, and challenging the status quo.</li>
-        <li><b>Precision:</b> We believe in the power of precision, tailoring solutions to meet the unique needs of each patient.</li>
-        <li><b>Collaboration:</b> Collaboration is central to our approach, as we work hand-in-hand with healthcare professionals to deliver the best possible outcomes.</li>
-        <li><b>Empowerment:</b> We empower healthcare professionals with cutting-edge tools and insights to enhance patient care.</li>
+      <ul className="text-justify">
+        <li><b>Innovation:</b> We thrive on innovation, consistently pushing boundaries and challenging the status quo in collaboration with our health tech partners.</li>
+        <li><b>Precision:</b> We believe in the power of precision, tailoring our solutions to meet the unique needs of each health tech venture we support.</li>
+        <li><b>Collaboration:</b> Collaboration is central to our approach. We work closely with health tech companies and healthcare professionals to deliver the best possible outcomes.</li>
+        <li><b>Empowerment:</b> We empower healthcare professionals and health tech innovators with cutting-edge tools and insights to enhance patient care and drive market success.</li>
       </ul>
 
 
@@ -118,7 +115,7 @@ const AboutUs = () => {
       </p>
 
       <p style={{ marginTop: "4rem" }}>
-        We invite you to join us on this remarkable journey towards a future where healthcare is not just a science but an art, driven by compassion and enabled by technology. Together, we can make a profound impact on the lives of patients and healthcare professionals alike.
+        We extend an invitation to health tech companies and professionals to join us on this remarkable journey toward a future where healthcare is a harmonious blend of science and compassion, driven by technology and enabled by strategic partnerships. Together, we can make a profound impact on the lives of patients and the success of healthcare technology companies.
       </p>
 
       {/* <p style={{ marginTop: "4rem" }}>
