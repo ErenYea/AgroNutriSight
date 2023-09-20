@@ -4,6 +4,7 @@ import HowItWorks from "../../data/how-it-works/howItWorksData";
 
 const HowWorks = (props) => {
   const [data, setData] = useState(props?.individualData);
+  var counter = 0;
   return (
     <div className="wrapper">
       <div className="row no-gutters">
@@ -24,13 +25,20 @@ const HowWorks = (props) => {
           <div className="row no-gutters h-100">
             {data?.subheadings &&
               data?.subheadings.map((item, key) => {
+                if (counter >= 3) {
+                  counter = 0;
+                }
+                counter += 1;
+
                 return (
                   <div
                     key={key}
                     className="col-sm-12 col-md-4 col-lg-4 col-xl-4 "
                     style={{ marginTop: "1rem" }}
                   >
-                    <div className={"process process-color-" + item.color}>
+                    <div
+                      className={"process process-color-" + counter.toString()}
+                    >
                       <div className="process-content">
                         <h5
                           className="process-t-head"

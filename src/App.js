@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -11,6 +11,12 @@ import page404 from "./pages/404";
 import UserInterface from "./pages/UserInterface";
 
 function App() {
+  useEffect(() => {
+    const web = document.querySelector("iframe");
+    if (web != null) {
+      document.querySelector("iframe").remove();
+    }
+  }, []);
   return (
     <Router>
       <Switch>
