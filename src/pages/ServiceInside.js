@@ -79,11 +79,11 @@ const NewsSinglePost = () => {
                 return (
                   <div
                     id="clients"
-                    className="block bg-white spacer m-top-xl m-bottom-xl"
+                    className="block bg-white spacer m-top-md m-bottom-md"
                   >
                     <section
                       id="testimonials"
-                      className="block bg-dark spacer p-top-xl p-bottom-xl"
+                      className="block bg-dark spacer p-top-sm "
                     >
                       <div className="wrapper">
                         <div className="description text-tertiary">
@@ -127,7 +127,7 @@ const NewsSinglePost = () => {
                   return (
                     <section
                       id="how-it-works"
-                      className="block bg-white before-block spacer p-top-xl p-bottom-xl"
+                      className="block bg-white before-block spacer p-top-sm p-bottom-sm"
                     >
                       <HowWorks individualData={data} />
                     </section>
@@ -138,7 +138,7 @@ const NewsSinglePost = () => {
                   return (
                     <section
                       id="price-plans"
-                      className="block spacer p-top-xl "
+                      className="block spacer p-top-sm "
                     >
                       <PricePlans individualData={data} />
                     </section>
