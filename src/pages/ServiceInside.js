@@ -92,14 +92,20 @@ const NewsSinglePost = () => {
 
                         <div className="adv-slider-reviews text-tertiary">
                           <div className="adv-slider-reviews-img">
-                            <img src="assets/img/demo/11_img.png" alt="Icon" loading='lazy' />
+                            <img
+                              src="assets/img/demo/11_img.png"
+                              alt="Icon"
+                              loading="lazy"
+                            />
                           </div>
 
                           <div className="adv-swiper-container reviews-text">
                             <div className="adv-swiper-wrapper reviews-text-items">
                               <div className="adv-swiper-slide reviews-text-item">
                                 <div className="reviews-text-item-content">
-                                  <h3 className="text-justify">{data?.description}</h3>
+                                  <h3 className="text-justify">
+                                    {data?.description}
+                                  </h3>
                                 </div>
                               </div>
                             </div>
@@ -121,7 +127,7 @@ const NewsSinglePost = () => {
                   return (
                     <section
                       id="how-it-works"
-                      className="block bg-white before-block spacer p-top-xl"
+                      className="block bg-white before-block spacer p-top-xl pb-bottom-xl"
                     >
                       <HowWorks individualData={data} />
                     </section>
