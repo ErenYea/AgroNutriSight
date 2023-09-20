@@ -127,7 +127,7 @@ const NewsSinglePost = () => {
                   return (
                     <section
                       id="how-it-works"
-                      className="block bg-white before-block spacer p-top-xl pb-bottom-xl"
+                      className="block bg-white before-block spacer p-top-xl p-bottom-xl"
                     >
                       <HowWorks individualData={data} />
                     </section>
