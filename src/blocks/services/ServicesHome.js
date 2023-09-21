@@ -12,10 +12,18 @@ const ServicesHome = () => {
         >
           <div className="process pl-0">
             <div className="process-content">
-              <h4 className="process-small-t-head">Collaboration</h4>
+              <h4 className="process-small-t-head">Collaborations</h4>
               <div className="process-description">
                 <p style={{ textAlign: "justify" }}>
-                  Discover an intriguing synergy between HealthSynX and prominent health technology development companies, where innovation meets strategy and branding excellence. This partnership has yielded a remarkable fusion of cutting-edge products designed to catalyze breakthroughs in healthcare and advertising. Within these groundbreaking solutions lies a testament to our commitment to addressing challenges while redefining commercial strategies and elevating product branding, all in the pursuit of advancing these critical domains.
+                  Discover an intriguing synergy between HealthSynX and
+                  prominent health technology development companies, where
+                  innovation meets strategy and branding excellence. This
+                  partnership has yielded a remarkable fusion of cutting-edge
+                  products designed to catalyze breakthroughs in healthcare.
+                  Within these groundbreaking solutions lies a testament to our
+                  commitment to addressing challenges while redefining
+                  commercial strategies and elevating product branding, all in
+                  the pursuit of advancing these critical domains.
                 </p>
               </div>
             </div>

@@ -1,94 +1,5 @@
 [
   {
-    "name": "Introducing AdInsightX",
-    "sub_name": "Elevate Your Advertising with AI-Powered Insights",
-    "small_description": "HealthSynX boosts ad ROI with fMRI and Eye Tracking, optimizing campaigns and trimming unnecessary spending.",
-    "description": "At HealthSynX, we're thrilled to introduce AdInsightX, an extraordinary advertising optimization tool developed by one of our esteemed partners. AdInsightX represents the cutting edge of AI-driven advertising technology, and we're proud to offer it as part of our portfolio of solutions.",
-    "DetailedDescription": "At HealthSynX, we've revolutionized the world of advertising by bringing neuroscience into the fold. Our cutting-edge fMRI (functional Magnetic Resonance Imaging) combined with Eye Tracking and Brain Guided Interpretation (BGI) solution opens up a new dimension in understanding how your audience responds to advertising stimuli.",
-    "subheadings": [
-      {
-        "heading": "Unlock the Power of AI in Your Advertising",
-        "description": "Traditional advertising methods can provide valuable insights, but they often miss the nuanced, emotional responses that truly drive advertising success. That's where AdInsightX comes in."
-      },
-      {
-        "heading": "Key Features",
-        "subheadings": [
-          {
-            "heading": "AI-Enhanced Insights",
-            "description": "AdInsightX utilizes advanced AI algorithms, fMRI (functional Magnetic Resonance Imaging), and Eye Tracking to delve deep into consumer reactions to your ads. It uncovers unspoken sentiments and emotional responses, allowing you to understand precisely how your audience perceives your brand.",
-            "color": "1"
-          },
-          {
-            "heading": "Visual Engagement",
-            "description": "Our Eye Tracking technology tracks viewer attention, revealing which elements of your ads are most captivating. Armed with this information, you can craft visually engaging content that resonates with your audience.",
-            "color": "2"
-          },
-          {
-            "heading": "AI-Driven Analysis",
-            "description": "AdInsightX's proprietary AI interprets the intricate neural patterns detected by fMRI and Eye Tracking. It translates these patterns into actionable insights and compares them to industry benchmarks for effective advertising. This analysis helps you make informed decisions about your advertising strategy.",
-            "color": "3"
-          }
-        ]
-      },
-      {
-        "heading": "Elevate Your Advertising Efficiency",
-        "description": "With AdInsightX, you have the tools to optimize your ad campaigns:",
-        "subheadings": [
-          {
-            "heading": "Refine Your Content",
-            "description": "Use data on emotional impact and visual engagement to fine-tune your ad content for maximum effect."
-          },
-          {
-            "heading": "Optimize Resources",
-            "description": "Identify less effective campaign elements, allowing you to reallocate your resources where they'll make the most significant impact."
-          }
-        ]
-      },
-      {
-        "heading": "Stay Ahead of the Competition",
-        "description": "In today's competitive marketplace, understanding the subconscious reactions of your audience is crucial. AdInsightX empowers you to create emotionally resonant ads that drive brand loyalty and conversions, giving you the edge you need."
-      },
-      {
-        "heading": "Your Path to Advertising Excellence",
-        "description": "With AdInsightX, you're not just advertising; you're conducting AI-driven marketing. Gain unparalleled insights into consumer responses, optimize your advertising campaigns, and maximize your brand's impact."
-      },
-      {
-        "heading": "Why Choose AdInsightX",
-        "description": "AdInsightX isn't just another advertising tool; it's a revolution in advertising effectiveness. Here's why you should choose us:",
-        "subheadings": [
-          {
-            "heading": "Proven Results",
-            "description": "AdInsightX has a track record of delivering exceptional results for businesses across various industries."
-          },
-          {
-            "heading": "Unparalleled Insights",
-            "description": "Our AI-powered platform provides insights that traditional methods simply can't match."
-          },
-          {
-            "heading": "Tailored Solutions",
-            "description": "We work closely with you to customize AdInsightX to meet your specific advertising needs."
-          },
-          {
-            "heading": "Competitive Advantage",
-            "description": "Stay ahead of the competition by crafting ads that truly resonate with your target audience."
-          },
-          {
-            "heading": "Easy Integration",
-            "description": " AdInsightX seamlessly integrates into your existing advertising workflow."
-          },
-          {
-            "heading": "Dedicated Support",
-            "description": "Our team is here to assist you every step of the way, ensuring you get the most out of AdInsightX."
-          }
-        ]
-      }
-    ],
-    "id": 1,
-    "quote": "Unlock the power of neuro-advertising with HealthSynX - Where Insights Shape Impact.",
-    "image": "assets/img/placeholder/card_1.png",
-    "video": "assets/img/placeholder/prod1.mp4"
-  },
-  {
     "name": "CardioClear",
     "sub_name": "Precision Heart Disease Care Powered by AI",
     "small_description": "AI-driven heart disease care via CCTA imaging for early atherosclerosis detection, personalized treatment, and improved outcomes.",
@@ -252,5 +163,94 @@
     "quote": "FractureFinder - Precision Detection for Enhanced Patient Care.",
     "image": "assets/img/placeholder/card_4.png",
     "video": "assets/img/placeholder/prod4.mp4"
+  },
+  {
+    "name": "Introducing AdInsightX",
+    "sub_name": "Elevate Your Advertising with AI-Powered Insights",
+    "small_description": "HealthSynX boosts ad ROI with fMRI and Eye Tracking, optimizing campaigns and trimming unnecessary spending.",
+    "description": "At HealthSynX, we're thrilled to introduce AdInsightX, an extraordinary advertising optimization tool developed by one of our esteemed partners. AdInsightX represents the cutting edge of AI-driven advertising technology, and we're proud to offer it as part of our portfolio of solutions.",
+    "DetailedDescription": "At HealthSynX, we've revolutionized the world of advertising by bringing neuroscience into the fold. Our cutting-edge fMRI (functional Magnetic Resonance Imaging) combined with Eye Tracking and Brain Guided Interpretation (BGI) solution opens up a new dimension in understanding how your audience responds to advertising stimuli.",
+    "subheadings": [
+      {
+        "heading": "Unlock the Power of AI in Your Advertising",
+        "description": "Traditional advertising methods can provide valuable insights, but they often miss the nuanced, emotional responses that truly drive advertising success. That's where AdInsightX comes in."
+      },
+      {
+        "heading": "Key Features",
+        "subheadings": [
+          {
+            "heading": "AI-Enhanced Insights",
+            "description": "AdInsightX utilizes advanced AI algorithms, fMRI (functional Magnetic Resonance Imaging), and Eye Tracking to delve deep into consumer reactions to your ads. It uncovers unspoken sentiments and emotional responses, allowing you to understand precisely how your audience perceives your brand.",
+            "color": "1"
+          },
+          {
+            "heading": "Visual Engagement",
+            "description": "Our Eye Tracking technology tracks viewer attention, revealing which elements of your ads are most captivating. Armed with this information, you can craft visually engaging content that resonates with your audience.",
+            "color": "2"
+          },
+          {
+            "heading": "AI-Driven Analysis",
+            "description": "AdInsightX's proprietary AI interprets the intricate neural patterns detected by fMRI and Eye Tracking. It translates these patterns into actionable insights and compares them to industry benchmarks for effective advertising. This analysis helps you make informed decisions about your advertising strategy.",
+            "color": "3"
+          }
+        ]
+      },
+      {
+        "heading": "Elevate Your Advertising Efficiency",
+        "description": "With AdInsightX, you have the tools to optimize your ad campaigns:",
+        "subheadings": [
+          {
+            "heading": "Refine Your Content",
+            "description": "Use data on emotional impact and visual engagement to fine-tune your ad content for maximum effect."
+          },
+          {
+            "heading": "Optimize Resources",
+            "description": "Identify less effective campaign elements, allowing you to reallocate your resources where they'll make the most significant impact."
+          }
+        ]
+      },
+      {
+        "heading": "Stay Ahead of the Competition",
+        "description": "In today's competitive marketplace, understanding the subconscious reactions of your audience is crucial. AdInsightX empowers you to create emotionally resonant ads that drive brand loyalty and conversions, giving you the edge you need."
+      },
+      {
+        "heading": "Your Path to Advertising Excellence",
+        "description": "With AdInsightX, you're not just advertising; you're conducting AI-driven marketing. Gain unparalleled insights into consumer responses, optimize your advertising campaigns, and maximize your brand's impact."
+      },
+      {
+        "heading": "Why Choose AdInsightX",
+        "description": "AdInsightX isn't just another advertising tool; it's a revolution in advertising effectiveness. Here's why you should choose us:",
+        "subheadings": [
+          {
+            "heading": "Proven Results",
+            "description": "AdInsightX has a track record of delivering exceptional results for businesses across various industries."
+          },
+          {
+            "heading": "Unparalleled Insights",
+            "description": "Our AI-powered platform provides insights that traditional methods simply can't match."
+          },
+          {
+            "heading": "Tailored Solutions",
+            "description": "We work closely with you to customize AdInsightX to meet your specific advertising needs."
+          },
+          {
+            "heading": "Competitive Advantage",
+            "description": "Stay ahead of the competition by crafting ads that truly resonate with your target audience."
+          },
+          {
+            "heading": "Easy Integration",
+            "description": " AdInsightX seamlessly integrates into your existing advertising workflow."
+          },
+          {
+            "heading": "Dedicated Support",
+            "description": "Our team is here to assist you every step of the way, ensuring you get the most out of AdInsightX."
+          }
+        ]
+      }
+    ],
+    "id": 1,
+    "quote": "Unlock the power of neuro-advertising with HealthSynX - Where Insights Shape Impact.",
+    "image": "assets/img/placeholder/card_1.png",
+    "video": "assets/img/placeholder/prod1.mp4"
   }
 ]
