@@ -20,33 +20,9 @@ const ContactsUs = () => {
 
                 <div className="spacer p-top-lg">
                     <div className="row gutter-width-md with-pb-md">
-                        <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                            <div className="contacts-item">
-                                <div className="contacts-item-icon">
-                                    <i className="malex-icon-location"></i>
-                                </div>
+                       
 
-                                <h5 className="contacts-item-t-head">Location</h5>
-
-                                <p className="contacts-item-description">Location: 575 Crescent Avenue<br/>Quakertown, PA
-                                    18951</p>
-                            </div>
-                        </div>
-
-                        <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                            <div className="contacts-item">
-                                <div className="contacts-item-icon">
-                                    <i className="malex-icon-phone"></i>
-                                </div>
-
-                                <h5 className="contacts-item-t-head">Phone no.</h5>
-
-                                <p className="contacts-item-description">
-                                    Mobile: <a href="tel:+43253312523">+432 533 12 523</a><br/>
-                                    Fax: <a href="tel:+53222212523">+532 222 12 523</a>
-                                </p>
-                            </div>
-                        </div>
+                       
 
                         <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <div className="contacts-item">
