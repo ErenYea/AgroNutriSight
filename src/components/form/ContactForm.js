@@ -26,7 +26,7 @@ class ContactForm extends Component {
     sendEmail = () => {
         const { name, email, message } = this.state.values;
         // const subject = 'Contact Form Submission';
-        const mailto = `mailto:huzaifa62012@gmail.com?subject=${encodeURIComponent(email)}&body=${encodeURIComponent(
+        const mailto = `mailto:info@healthsynx.com?subject=${encodeURIComponent(email)}&body=${encodeURIComponent(
             `${message}`
         )}`;
         window.location.href = mailto;
