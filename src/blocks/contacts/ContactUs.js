@@ -57,8 +57,8 @@ const ContactsUs = () => {
                                 <h5 className="contacts-item-t-head">E-mail</h5>
 
                                 <p className="contacts-item-description">
-                                    Info: <a href="mailto:info@domain.com">info@domain.com</a><br/>
-                                    CEO: <a href="mailto:ceo@domain.com">ceo@domain.com</a>
+                                    Info: <a href="mailto:info@domain.com">info@healthsynx.com</a><br/>
+                
                                 </p>
                             </div>
                         </div>
