@@ -15,18 +15,14 @@ const PageTitleHome = () => {
         <div className="page-title-body page-title-body-space-left">
           <div className="title">
             <h1 className="large">
-              Empowering Health Tech Visionaries
-              <br /> for a Smarter Tomorrow
+              Empowering new emerging technologies in healthcare
+              <br />
             </h1>
           </div>
 
           <div className="description spacer p-top-lg">
             <p className="text-justify">
-              Welcome to HealthSynX, where we are bolstering the future of
-              healthcare in partnership with health tech companies, offering a
-              comprehensive suite of services including branding,
-              commercialization, marketing, and sales, all driven by the
-              transformative force of artificial intelligence
+              Welcome to HealthSynX, where we are reshaping the future of healthcare through strategic partnerships with industry-leading health technology firms, offering a comprehensive suite of services, including branding, commercialization, marketing, and sales, all powered by the transformative potential of AI in healthcare.
             </p>
           </div>
 
